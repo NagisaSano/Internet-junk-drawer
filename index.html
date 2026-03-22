@@ -4,31 +4,148 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Internet Junk Drawer</title>
+  <meta
+    name="description"
+    content="A tiny public corner of the internet for weird experiments, odd little ideas, and unnecessary web artifacts."
+  >
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <main class="shell">
-    <p class="eyebrow">Public internet object</p>
-    <h1>Internet Junk Drawer</h1>
-    <p class="lede">
-      A pointless generator for tiny web artifacts that probably should not exist.
-    </p>
+  <div class="backdrop" aria-hidden="true">
+    <div class="blob blob-a"></div>
+    <div class="blob blob-b"></div>
+    <div class="blob blob-c"></div>
+    <div class="grid-glow"></div>
+  </div>
 
-    <section class="card" aria-live="polite">
-      <p class="label">Latest artifact</p>
-      <h2 id="artifact-name">Solar-Powered Inbox Goblin</h2>
-      <p id="artifact-description" class="artifact-copy">
-        A suspiciously cheerful helper that turns unread notifications into decorative confetti.
-      </p>
-      <button id="generate-button" type="button">Generate Another</button>
+  <main class="shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Public internet object</p>
+        <h1>Internet Junk Drawer</h1>
+        <p class="lede">
+          A small public cabinet for weird experiments, unserious web relics, and ideas that are more fun when they stay slightly unfinished.
+        </p>
+      </div>
+
+      <section class="panel hero-panel">
+        <p class="label">Drawer status</p>
+        <div class="stat-grid">
+          <article class="stat">
+            <span class="stat-value" id="spin-count">0</span>
+            <span class="stat-label">generator spins</span>
+          </article>
+          <article class="stat">
+            <span class="stat-value" id="archive-count">0</span>
+            <span class="stat-label">archived relics</span>
+          </article>
+          <article class="stat">
+            <span class="stat-value" id="drawer-mood">Warm</span>
+            <span class="stat-label">drawer mood</span>
+          </article>
+        </div>
+        <p class="panel-copy">
+          Spin the generator, keep the good accidents, and let the shelf become its own little museum.
+        </p>
+      </section>
+    </header>
+
+    <section class="workspace">
+      <section class="panel stage" aria-live="polite">
+        <div class="stage-head">
+          <div>
+            <p class="label">Current artifact</p>
+            <div class="tag-row">
+              <span class="tag" id="artifact-category">Domestic myth</span>
+              <span class="tag tag-soft" id="artifact-vibe">Warm absurdity</span>
+            </div>
+          </div>
+
+          <div class="stage-actions">
+            <button id="generate-button" type="button">Generate Another</button>
+            <button id="archive-button" class="button-secondary" type="button">Archive This One</button>
+          </div>
+        </div>
+
+        <h2 id="artifact-name">Solar-Powered Inbox Goblin</h2>
+        <p id="artifact-description" class="artifact-copy">
+          A suspiciously cheerful helper that turns unread notifications into decorative confetti.
+        </p>
+
+        <div class="artifact-grid">
+          <div class="artifact-meta">
+            <article class="meta-item">
+              <span class="meta-key">Threat Level</span>
+              <span class="meta-value" id="artifact-threat">Decorative menace</span>
+            </article>
+            <article class="meta-item">
+              <span class="meta-key">Usefulness</span>
+              <span class="meta-value" id="artifact-usefulness">Strangely practical</span>
+            </article>
+            <article class="meta-item">
+              <span class="meta-key">Habitat</span>
+              <span class="meta-value" id="artifact-habitat">Near forgotten tabs</span>
+            </article>
+            <article class="meta-item">
+              <span class="meta-key">Activation Ritual</span>
+              <span class="meta-value" id="artifact-ritual">Double-click at dusk</span>
+            </article>
+          </div>
+
+          <pre class="sigil" id="artifact-sigil" aria-label="Artifact sigil">[] []
+//\\\\
+00 00</pre>
+        </div>
+      </section>
+
+      <aside class="panel shelf">
+        <div class="shelf-head">
+          <div>
+            <p class="label">Archived shelf</p>
+            <h3>Collected relics</h3>
+          </div>
+          <button id="clear-button" class="button-ghost" type="button">Clear Shelf</button>
+        </div>
+
+        <ul id="artifact-history" class="history-list">
+          <li class="history-empty">No relics archived yet. Keep the first good accident.</li>
+        </ul>
+      </aside>
     </section>
 
-    <section class="notes">
-      <p>This repo is intentionally small, public, and slightly unserious.</p>
-      <p>If you put this on GitHub Pages, it becomes a proper little corner of the internet.</p>
+    <section class="lower-grid">
+      <section class="panel manifesto">
+        <p class="label">Operating principles</p>
+        <h3>Rules for a healthy junk drawer</h3>
+        <ul class="principles">
+          <li>Ship odd little things before they harden into serious plans.</li>
+          <li>Keep at least one file alive purely because the bit is funny.</li>
+          <li>Prefer memorable nonsense over empty polish.</li>
+        </ul>
+      </section>
+
+      <section class="panel ideas">
+        <p class="label">Possible future loot</p>
+        <h3>Things this repo could collect next</h3>
+        <div class="idea-list">
+          <article class="idea-card">
+            <span class="idea-title">Guestbook For Strangers</span>
+            <p>A tiny wall where random visitors leave one sentence and one terrible idea.</p>
+          </article>
+          <article class="idea-card">
+            <span class="idea-title">Button That Regrets Itself</span>
+            <p>An interaction that becomes less confident every time someone clicks it.</p>
+          </article>
+          <article class="idea-card">
+            <span class="idea-title">Artifact Of The Day</span>
+            <p>A single daily relic generated and pinned like a museum label nobody asked for.</p>
+          </article>
+        </div>
+      </section>
     </section>
   </main>
 
