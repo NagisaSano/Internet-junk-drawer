@@ -1,5 +1,15 @@
 const STORAGE_KEY = "internet-junk-drawer.state";
 const MAX_ARCHIVED_ARTIFACTS = 6;
+const GUESTBOOK_PREFIX = "Guestbook:";
+
+const repoConfig = {
+  owner: document.body.dataset.githubOwner,
+  repo: document.body.dataset.githubRepo
+};
+
+const dailyFallbackDateKey = ArtifactEngine.getUtcDateKey();
+const initialDailyArtifact = globalThis.INTERNET_JUNK_DRAWER_DAILY
+  || ArtifactEngine.createArtifactForDate(dailyFallbackDateKey);
 
 const elements = {
   artifactName: document.getElementById("artifact-name"),
@@ -17,155 +27,24 @@ const elements = {
   drawerMood: document.getElementById("drawer-mood"),
   generateButton: document.getElementById("generate-button"),
   archiveButton: document.getElementById("archive-button"),
-  clearButton: document.getElementById("clear-button")
+  clearButton: document.getElementById("clear-button"),
+  useDailyButton: document.getElementById("use-daily-button"),
+  dailyName: document.getElementById("daily-name"),
+  dailyDescription: document.getElementById("daily-description"),
+  dailyDate: document.getElementById("daily-date"),
+  dailyCategory: document.getElementById("daily-category"),
+  dailyVibe: document.getElementById("daily-vibe"),
+  dailyHabitat: document.getElementById("daily-habitat"),
+  dailyRitual: document.getElementById("daily-ritual"),
+  dailySigil: document.getElementById("daily-sigil"),
+  guestbookForm: document.getElementById("guestbook-form"),
+  guestName: document.getElementById("guest-name"),
+  guestOffering: document.getElementById("guest-offering"),
+  guestIdea: document.getElementById("guest-idea"),
+  guestbookHelper: document.getElementById("guestbook-helper"),
+  guestbookEntries: document.getElementById("guestbook-entries"),
+  guestbookRefresh: document.getElementById("guestbook-refresh")
 };
-
-const adjectives = [
-  "Solar-Powered",
-  "Emergency",
-  "Ceremonial",
-  "Invisible",
-  "Low-Budget",
-  "Overengineered",
-  "Unauthorized",
-  "Pocket-Sized",
-  "Biodegradable",
-  "Caffeinated",
-  "Museum-Grade",
-  "Suburban",
-  "Portable",
-  "Polite"
-];
-
-const nouns = [
-  "Inbox Goblin",
-  "Browser Shrine",
-  "Tab Fossil",
-  "JPEG Museum",
-  "Mood Spreadsheet",
-  "Wi-Fi Totem",
-  "Deadline Mirage",
-  "Cursor Oracle",
-  "Side Quest Engine",
-  "Notification Harp",
-  "Portable Ritual",
-  "Desktop Weather System"
-];
-
-const categories = [
-  "Domestic myth",
-  "Soft threat",
-  "Office folklore",
-  "Browser wildlife",
-  "Tiny machine",
-  "Ceremonial clutter",
-  "Digital keepsake"
-];
-
-const vibes = [
-  "Warm absurdity",
-  "Gentle menace",
-  "Administrative whimsy",
-  "Low-stakes prophecy",
-  "Glorified side quest",
-  "Curated nonsense"
-];
-
-const habitats = [
-  "near forgotten tabs",
-  "inside shared folders nobody owns",
-  "between two unfinished side projects",
-  "under the glow of a late-night monitor",
-  "next to screenshots with no context",
-  "behind a very confident desktop shortcut"
-];
-
-const powers = [
-  "converts unread pings into decorative confidence",
-  "makes procrastination feel like archival practice",
-  "adds ceremonial weight to tiny bad ideas",
-  "turns ordinary files into suspiciously meaningful relics",
-  "makes the desktop feel 14% more haunted in a useful way",
-  "relabels clutter as if it had a curator"
-];
-
-const consequences = [
-  "someone mistakes it for a serious tool",
-  "the room becomes emotionally better organized",
-  "a stranger assumes there is a deeper system",
-  "you accidentally start believing in its workflow",
-  "the repo gains one more unexplained feature",
-  "nobody can remember why it is charming, only that it is"
-];
-
-const threatLevels = [
-  "Decorative menace",
-  "Harmless if respected",
-  "Mildly destabilizing",
-  "Questionably legal in spirit",
-  "Safe for office folklore"
-];
-
-const usefulnessLevels = [
-  "Strangely practical",
-  "Mostly ceremonial",
-  "Useful under moonlight",
-  "Suspiciously efficient",
-  "Excellent for morale"
-];
-
-const rituals = [
-  "Double-click at dusk",
-  "Whisper a filename and refresh",
-  "Offer it one broken bookmark",
-  "Spin once before making plans",
-  "Launch only after coffee",
-  "Ask nothing from it directly"
-];
-
-function pick(list) {
-  return list[Math.floor(Math.random() * list.length)];
-}
-
-function buildSigil() {
-  const glyphs = ["<>", "{}", "[]", "()", "~~", "::", "##", "++", "//", "\\\\"];
-  const rowA = `${pick(glyphs)} ${pick(glyphs)} ${pick(glyphs)}`;
-  const rowB = `${pick(glyphs)} 00 ${pick(glyphs)}`;
-  const rowC = `${pick(glyphs)} ${pick(glyphs)} ${pick(glyphs)}`;
-
-  return [rowA, rowB, rowC].join("\n");
-}
-
-function makeId() {
-  if (globalThis.crypto && typeof globalThis.crypto.randomUUID === "function") {
-    return globalThis.crypto.randomUUID();
-  }
-
-  return `artifact-${Date.now()}-${Math.random().toString(16).slice(2)}`;
-}
-
-function createArtifact() {
-  const name = `${pick(adjectives)} ${pick(nouns)}`;
-  const category = pick(categories);
-  const vibe = pick(vibes);
-  const habitat = pick(habitats);
-  const power = pick(powers);
-  const consequence = pick(consequences);
-
-  return {
-    id: makeId(),
-    name,
-    category,
-    vibe,
-    description: `A ${vibe.toLowerCase()} ${category.toLowerCase()} that ${power} until ${consequence}. It is usually found ${habitat}.`,
-    threat: pick(threatLevels),
-    usefulness: pick(usefulnessLevels),
-    habitat,
-    ritual: pick(rituals),
-    sigil: buildSigil(),
-    archivedAt: null
-  };
-}
 
 function loadState() {
   try {
@@ -212,16 +91,26 @@ function getDrawerMood() {
   return "Warm";
 }
 
-function renderArtifact(artifact) {
-  elements.artifactName.textContent = artifact.name;
-  elements.artifactDescription.textContent = artifact.description;
-  elements.artifactCategory.textContent = artifact.category;
-  elements.artifactVibe.textContent = artifact.vibe;
-  elements.artifactThreat.textContent = artifact.threat;
-  elements.artifactUsefulness.textContent = artifact.usefulness;
-  elements.artifactHabitat.textContent = artifact.habitat;
-  elements.artifactRitual.textContent = artifact.ritual;
-  elements.artifactSigil.textContent = artifact.sigil;
+function renderArtifact(target, artifact) {
+  target.name.textContent = artifact.name;
+  target.description.textContent = artifact.description;
+  target.category.textContent = artifact.category;
+  target.vibe.textContent = artifact.vibe;
+  target.habitat.textContent = ArtifactEngine.toTitleCase(artifact.habitat);
+  target.ritual.textContent = artifact.ritual;
+  target.sigil.textContent = artifact.sigil;
+
+  if (target.threat) {
+    target.threat.textContent = artifact.threat;
+  }
+
+  if (target.usefulness) {
+    target.usefulness.textContent = artifact.usefulness;
+  }
+
+  if (target.date) {
+    target.date.textContent = ArtifactEngine.formatDateKey(artifact.dateKey || dailyFallbackDateKey);
+  }
 }
 
 function renderHistory() {
@@ -262,7 +151,17 @@ function renderStats() {
 }
 
 function refresh() {
-  renderArtifact(state.current);
+  renderArtifact({
+    name: elements.artifactName,
+    description: elements.artifactDescription,
+    category: elements.artifactCategory,
+    vibe: elements.artifactVibe,
+    threat: elements.artifactThreat,
+    usefulness: elements.artifactUsefulness,
+    habitat: elements.artifactHabitat,
+    ritual: elements.artifactRitual,
+    sigil: elements.artifactSigil
+  }, state.current);
   renderHistory();
   renderStats();
   saveState();
@@ -270,7 +169,7 @@ function refresh() {
 
 function spinGenerator() {
   state.spinCount += 1;
-  state.current = createArtifact();
+  state.current = ArtifactEngine.createRandomArtifact();
   refresh();
 }
 
@@ -293,17 +192,166 @@ function clearShelf() {
   refresh();
 }
 
+function sendDailyArtifactToStage() {
+  state.current = {
+    ...dailyArtifact,
+    id: ArtifactEngine.makeId()
+  };
+  refresh();
+}
+
+function escapeForRegex(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function getSectionValue(body, sectionTitle) {
+  const pattern = new RegExp(`## ${escapeForRegex(sectionTitle)}\\s+([\\s\\S]*?)(?=\\n## |$)`);
+  const match = body.match(pattern);
+  return match ? match[1].trim() : "";
+}
+
+function renderGuestbookEntries(entries) {
+  elements.guestbookEntries.replaceChildren();
+
+  if (entries.length === 0) {
+    const empty = document.createElement("li");
+    empty.className = "history-empty";
+    empty.textContent = "No guestbook entries yet. The wall is waiting for its first browser ghost.";
+    elements.guestbookEntries.append(empty);
+    return;
+  }
+
+  entries.forEach((issue) => {
+    const item = document.createElement("li");
+    item.className = "guestbook-entry";
+
+    const title = document.createElement("strong");
+    title.textContent = issue.title.replace(GUESTBOOK_PREFIX, "").trim() || "Unnamed browser ghost";
+
+    const offering = document.createElement("span");
+    const offeringText = getSectionValue(issue.body || "", "Offering To The Drawer")
+      || "Left behind a mysterious offering.";
+    offering.textContent = offeringText;
+
+    const idea = document.createElement("span");
+    const ideaText = getSectionValue(issue.body || "", "Terrible Idea For Next Feature");
+    idea.textContent = ideaText
+      ? `Terrible idea: ${ideaText}`
+      : "Terrible idea: none recorded, which feels suspicious.";
+
+    const time = document.createElement("time");
+    time.textContent = `Signed ${new Date(issue.created_at).toLocaleDateString()}`;
+
+    const link = document.createElement("a");
+    link.href = issue.html_url;
+    link.target = "_blank";
+    link.rel = "noreferrer";
+    link.textContent = "Open on GitHub";
+
+    item.append(title, offering, idea, time, link);
+    elements.guestbookEntries.append(item);
+  });
+}
+
+async function loadGuestbookEntries() {
+  elements.guestbookEntries.replaceChildren();
+
+  const loading = document.createElement("li");
+  loading.className = "history-empty";
+  loading.textContent = "Loading guestbook entries...";
+  elements.guestbookEntries.append(loading);
+
+  try {
+    const response = await fetch(
+      `https://api.github.com/repos/${repoConfig.owner}/${repoConfig.repo}/issues?state=all&per_page=20&sort=created&direction=desc`,
+      {
+        headers: {
+          Accept: "application/vnd.github+json"
+        }
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(`GitHub API returned ${response.status}`);
+    }
+
+    const issues = await response.json();
+    const entries = issues
+      .filter((issue) => !issue.pull_request)
+      .filter((issue) => issue.title.startsWith(GUESTBOOK_PREFIX))
+      .slice(0, 6);
+
+    renderGuestbookEntries(entries);
+  } catch (error) {
+    console.warn("Could not load guestbook entries.", error);
+
+    const failed = document.createElement("li");
+    failed.className = "history-empty";
+    failed.textContent = "The wall could not load right now. GitHub may be rate-limiting or briefly unavailable.";
+    elements.guestbookEntries.replaceChildren(failed);
+  }
+}
+
+function buildGuestbookIssueUrl() {
+  const alias = elements.guestName.value.trim() || "Unnamed browser ghost";
+  const offering = elements.guestOffering.value.trim()
+    || "I leave behind a tab with no title and a screenshot I no longer understand.";
+  const idea = elements.guestIdea.value.trim()
+    || "Add a button that only appears when nobody needs it.";
+  const issueTitle = `${GUESTBOOK_PREFIX} ${alias}`;
+  const issueBody = [
+    "## Alias",
+    alias,
+    "",
+    "## Offering To The Drawer",
+    offering,
+    "",
+    "## Terrible Idea For Next Feature",
+    idea,
+    "",
+    "## Signature",
+    `Posted from the site on ${new Date().toUTCString()}.`
+  ].join("\n");
+
+  return `https://github.com/${repoConfig.owner}/${repoConfig.repo}/issues/new?title=${encodeURIComponent(issueTitle)}&body=${encodeURIComponent(issueBody)}&labels=${encodeURIComponent("guestbook")}`;
+}
+
+function handleGuestbookSubmit(event) {
+  event.preventDefault();
+
+  const issueUrl = buildGuestbookIssueUrl();
+  window.open(issueUrl, "_blank", "noopener");
+  elements.guestbookHelper.textContent = "Prefilled issue opened in a new tab. Once it is submitted, refresh the wall.";
+}
+
+const dailyArtifact = {
+  ...ArtifactEngine.createArtifactForDate(initialDailyArtifact.dateKey || dailyFallbackDateKey),
+  ...initialDailyArtifact
+};
+
 const state = loadState();
 
 if (!state.current) {
-  state.current = createArtifact();
+  state.current = ArtifactEngine.createRandomArtifact();
 }
 
-renderArtifact(state.current);
-renderHistory();
-renderStats();
-saveState();
+renderArtifact({
+  name: elements.dailyName,
+  description: elements.dailyDescription,
+  category: elements.dailyCategory,
+  vibe: elements.dailyVibe,
+  habitat: elements.dailyHabitat,
+  ritual: elements.dailyRitual,
+  sigil: elements.dailySigil,
+  date: elements.dailyDate
+}, dailyArtifact);
+
+refresh();
+loadGuestbookEntries();
 
 elements.generateButton.addEventListener("click", spinGenerator);
 elements.archiveButton.addEventListener("click", archiveCurrentArtifact);
 elements.clearButton.addEventListener("click", clearShelf);
+elements.useDailyButton.addEventListener("click", sendDailyArtifactToStage);
+elements.guestbookForm.addEventListener("submit", handleGuestbookSubmit);
+elements.guestbookRefresh.addEventListener("click", loadGuestbookEntries);

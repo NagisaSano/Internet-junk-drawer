@@ -14,7 +14,7 @@
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
+<body data-github-owner="NagisaSano" data-github-repo="Internet-junk-drawer">
   <div class="backdrop" aria-hidden="true">
     <div class="blob blob-a"></div>
     <div class="blob blob-b"></div>
@@ -28,7 +28,7 @@
         <p class="eyebrow">Public internet object</p>
         <h1>Internet Junk Drawer</h1>
         <p class="lede">
-          A small public cabinet for weird experiments, unserious web relics, and ideas that are more fun when they stay slightly unfinished.
+          A small public cabinet for weird experiments, unserious web relics, and ideas that get funnier when they become real.
         </p>
       </div>
 
@@ -49,10 +49,68 @@
           </article>
         </div>
         <p class="panel-copy">
-          Spin the generator, keep the good accidents, and let the shelf become its own little museum.
+          The drawer now has a daily relic, a public wall for stranger notes, and enough ceremony to justify existing in public.
         </p>
       </section>
     </header>
+
+    <section class="spotlight-grid">
+      <section class="panel daily-panel">
+        <div class="section-head">
+          <div>
+            <p class="label">Artifact of the day</p>
+            <h2 id="daily-name">Loading daily relic...</h2>
+          </div>
+          <div class="daily-actions">
+            <span class="tag" id="daily-date">Waiting for clockwork</span>
+            <button id="use-daily-button" class="button-secondary" type="button">Send To Stage</button>
+          </div>
+        </div>
+
+        <p id="daily-description" class="artifact-copy">
+          The drawer is winding up today's public relic.
+        </p>
+
+        <div class="artifact-grid artifact-grid-daily">
+          <div class="artifact-meta">
+            <article class="meta-item">
+              <span class="meta-key">Category</span>
+              <span class="meta-value" id="daily-category">Unknown classification</span>
+            </article>
+            <article class="meta-item">
+              <span class="meta-key">Vibe</span>
+              <span class="meta-value" id="daily-vibe">Calm instability</span>
+            </article>
+            <article class="meta-item">
+              <span class="meta-key">Habitat</span>
+              <span class="meta-value" id="daily-habitat">Between browser sessions</span>
+            </article>
+            <article class="meta-item">
+              <span class="meta-key">Ritual</span>
+              <span class="meta-value" id="daily-ritual">Await next deployment</span>
+            </article>
+          </div>
+
+          <pre class="sigil" id="daily-sigil" aria-label="Daily artifact sigil">[] []
+{} 00
+// //</pre>
+        </div>
+      </section>
+
+      <section class="panel systems-panel">
+        <p class="label">Automatic nonsense</p>
+        <h3>This repo now behaves like a tiny machine</h3>
+        <ul class="principles">
+          <li>GitHub Pages can publish the site as a proper public URL.</li>
+          <li>A scheduled workflow refreshes the artifact of the day once every day.</li>
+          <li>The guestbook uses GitHub issues, so visitors can leave a note without a custom backend.</li>
+        </ul>
+        <div class="link-row">
+          <a class="button-link" href="https://github.com/NagisaSano/Internet-junk-drawer" target="_blank" rel="noreferrer">Open Repo</a>
+          <a class="button-link button-link-soft" href="https://github.com/NagisaSano/Internet-junk-drawer/issues" target="_blank" rel="noreferrer">View Issues</a>
+        </div>
+      </section>
+    </section>
 
     <section class="workspace">
       <section class="panel stage" aria-live="polite">
@@ -133,22 +191,70 @@
         <h3>Things this repo could collect next</h3>
         <div class="idea-list">
           <article class="idea-card">
-            <span class="idea-title">Guestbook For Strangers</span>
-            <p>A tiny wall where random visitors leave one sentence and one terrible idea.</p>
+            <span class="idea-title">Guestbook for browser ghosts</span>
+            <p>Visitors sign the wall through GitHub issues and leave behind one dubious idea.</p>
           </article>
           <article class="idea-card">
-            <span class="idea-title">Button That Regrets Itself</span>
-            <p>An interaction that becomes less confident every time someone clicks it.</p>
+            <span class="idea-title">Daily relic pinboard</span>
+            <p>A scheduled action keeps one official public artifact alive every day.</p>
           </article>
           <article class="idea-card">
-            <span class="idea-title">Artifact Of The Day</span>
-            <p>A single daily relic generated and pinned like a museum label nobody asked for.</p>
+            <span class="idea-title">Pages-first weirdness</span>
+            <p>The repo is now set up to work as a small site rather than only a code folder.</p>
           </article>
         </div>
       </section>
     </section>
+
+    <section class="panel guestbook-panel">
+      <div class="section-head guestbook-head">
+        <div>
+          <p class="label">Absurd guestbook</p>
+          <h3>Leave a relic for the drawer</h3>
+        </div>
+        <p class="guestbook-copy">
+          This form opens a prefilled GitHub issue. Visitors need a GitHub account, but the wall stays public.
+        </p>
+      </div>
+
+      <div class="guestbook-grid">
+        <form id="guestbook-form" class="guestbook-form">
+          <label class="field">
+            <span>Alias</span>
+            <input id="guest-name" name="guest-name" maxlength="40" placeholder="A browser ghost">
+          </label>
+
+          <label class="field">
+            <span>Offering to the drawer</span>
+            <textarea id="guest-offering" name="guest-offering" rows="4" placeholder="I leave behind a tab with no title and a screenshot I no longer understand."></textarea>
+          </label>
+
+          <label class="field">
+            <span>Terrible idea for the next feature</span>
+            <textarea id="guest-idea" name="guest-idea" rows="4" placeholder="Add a button that only appears when nobody needs it."></textarea>
+          </label>
+
+          <button id="guestbook-submit" type="submit">Open GitHub Guestbook</button>
+          <p id="guestbook-helper" class="helper-copy">
+            The drawer will turn your note into a prefilled issue and send you to GitHub.
+          </p>
+        </form>
+
+        <section class="guestbook-wall">
+          <div class="wall-head">
+            <span class="tag tag-soft">Latest wall scribbles</span>
+            <button id="guestbook-refresh" class="button-ghost" type="button">Refresh Wall</button>
+          </div>
+          <ul id="guestbook-entries" class="guestbook-list">
+            <li class="history-empty">Loading guestbook entries...</li>
+          </ul>
+        </section>
+      </div>
+    </section>
   </main>
 
+  <script src="./data/artifact-of-the-day.js"></script>
+  <script src="./artifact-engine.js"></script>
   <script src="./script.js"></script>
 </body>
 </html>
