@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-03-22",
-  "name": "Museum-Grade Notification Harp",
+  "id": "daily-2026-03-23",
+  "name": "Unauthorized Notification Harp",
   "category": "Tiny machine",
-  "vibe": "Glorified side quest",
-  "description": "A glorified side quest tiny machine that relabels clutter as if it had a curator until you accidentally start believing in its workflow. It is usually found between two unfinished side projects.",
-  "threat": "Questionably legal in spirit",
+  "vibe": "Administrative whimsy",
+  "description": "A administrative whimsy tiny machine that adds ceremonial weight to tiny bad ideas until someone mistakes it for a serious tool. It is usually found between two unfinished side projects.",
+  "threat": "Safe for office folklore",
   "usefulness": "Excellent for morale",
   "habitat": "between two unfinished side projects",
-  "ritual": "Spin once before making plans",
-  "sigil": "++ ## {}\n## 00 //\n:: :: <>",
+  "ritual": "Ask nothing from it directly",
+  "sigil": "\\\\ ## ##\n\\\\ 00 ::\n{} \\\\ ()",
   "archivedAt": null,
-  "dateKey": "2026-03-22",
-  "publishedAt": "2026-03-22T08:51:54.772Z"
+  "dateKey": "2026-03-23",
+  "publishedAt": "2026-03-23T00:27:37.044Z"
 };

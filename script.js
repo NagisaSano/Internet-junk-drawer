@@ -212,6 +212,9 @@ function getSectionValue(body, sectionTitle) {
 
 function renderGuestbookEntries(entries) {
   elements.guestbookEntries.replaceChildren();
+  elements.guestbookEntries.removeAttribute("aria-busy");
+  elements.guestbookRefresh.disabled = false;
+  elements.guestbookRefresh.textContent = "Refresh Wall";
 
   if (entries.length === 0) {
     const empty = document.createElement("li");
@@ -255,6 +258,9 @@ function renderGuestbookEntries(entries) {
 
 async function loadGuestbookEntries() {
   elements.guestbookEntries.replaceChildren();
+  elements.guestbookEntries.setAttribute("aria-busy", "true");
+  elements.guestbookRefresh.disabled = true;
+  elements.guestbookRefresh.textContent = "Refreshing...";
 
   const loading = document.createElement("li");
   loading.className = "history-empty";
@@ -282,13 +288,20 @@ async function loadGuestbookEntries() {
       .slice(0, 6);
 
     renderGuestbookEntries(entries);
+    elements.guestbookHelper.textContent = entries.length > 0
+      ? "Wall refreshed. Fresh browser ghosts have been pinned to the drawer."
+      : "Wall refreshed. The drawer is still waiting for its first browser ghost.";
   } catch (error) {
     console.warn("Could not load guestbook entries.", error);
+    elements.guestbookEntries.removeAttribute("aria-busy");
+    elements.guestbookRefresh.disabled = false;
+    elements.guestbookRefresh.textContent = "Refresh Wall";
 
     const failed = document.createElement("li");
     failed.className = "history-empty";
     failed.textContent = "The wall could not load right now. GitHub may be rate-limiting or briefly unavailable.";
     elements.guestbookEntries.replaceChildren(failed);
+    elements.guestbookHelper.textContent = "Wall refresh failed. GitHub may be rate-limiting the drawer right now.";
   }
 }
 
@@ -321,7 +334,7 @@ function handleGuestbookSubmit(event) {
 
   const issueUrl = buildGuestbookIssueUrl();
   window.open(issueUrl, "_blank", "noopener");
-  elements.guestbookHelper.textContent = "Prefilled issue opened in a new tab. Once it is submitted, refresh the wall.";
+  elements.guestbookHelper.textContent = "Prefilled issue opened in a new tab. Submit it on GitHub, then refresh the wall to pin it to the drawer.";
 }
 
 const dailyArtifact = {

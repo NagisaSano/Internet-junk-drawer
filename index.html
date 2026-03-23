@@ -221,7 +221,7 @@
         <form id="guestbook-form" class="guestbook-form">
           <label class="field">
             <span>Alias</span>
-            <input id="guest-name" name="guest-name" maxlength="40" placeholder="A browser ghost">
+            <input id="guest-name" name="guest-name" maxlength="40" autocomplete="nickname" placeholder="A browser ghost">
           </label>
 
           <label class="field">
@@ -235,17 +235,18 @@
           </label>
 
           <button id="guestbook-submit" type="submit">Open GitHub Guestbook</button>
-          <p id="guestbook-helper" class="helper-copy">
-            The drawer will turn your note into a prefilled issue and send you to GitHub.
+          <p id="guestbook-helper" class="helper-copy" role="status" aria-live="polite">
+            The drawer will turn your note into a prefilled issue, label it for the guestbook, and send you to GitHub.
           </p>
         </form>
 
-        <section class="guestbook-wall">
+        <section class="guestbook-wall" aria-labelledby="guestbook-wall-title">
           <div class="wall-head">
             <span class="tag tag-soft">Latest wall scribbles</span>
             <button id="guestbook-refresh" class="button-ghost" type="button">Refresh Wall</button>
           </div>
-          <ul id="guestbook-entries" class="guestbook-list">
+          <h4 id="guestbook-wall-title" class="sr-only">Latest guestbook entries</h4>
+          <ul id="guestbook-entries" class="guestbook-list" aria-live="polite">
             <li class="history-empty">Loading guestbook entries...</li>
           </ul>
         </section>
