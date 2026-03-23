@@ -152,6 +152,10 @@
     return `artifact-${Date.now()}-${Math.random().toString(16).slice(2)}`;
   }
 
+  function chooseIndefiniteArticle(phrase) {
+    return /^[aeiou]/i.test(phrase) ? "an" : "a";
+  }
+
   function createArtifact(options) {
     const random = options && typeof options.random === "function" ? options.random : Math.random;
     const name = `${pick(adjectives, random)} ${pick(nouns, random)}`;
@@ -160,13 +164,15 @@
     const habitat = pick(habitats, random);
     const power = pick(powers, random);
     const consequence = pick(consequences, random);
+    const descriptor = `${vibe.toLowerCase()} ${category.toLowerCase()}`;
+    const article = chooseIndefiniteArticle(descriptor);
 
     return {
       id: options && options.id ? options.id : makeId(),
       name,
       category,
       vibe,
-      description: `A ${vibe.toLowerCase()} ${category.toLowerCase()} that ${power} until ${consequence}. It is usually found ${habitat}.`,
+      description: `${article[0].toUpperCase()}${article.slice(1)} ${descriptor} that ${power} until ${consequence}. It is usually found ${habitat}.`,
       threat: pick(threatLevels, random),
       usefulness: pick(usefulnessLevels, random),
       habitat,
