@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-03-23",
-  "name": "Unauthorized Notification Harp",
-  "category": "Tiny machine",
-  "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy tiny machine that adds ceremonial weight to tiny bad ideas until someone mistakes it for a serious tool. It is usually found between two unfinished side projects.",
-  "threat": "Safe for office folklore",
+  "id": "daily-2026-03-24",
+  "name": "Low-Budget Browser Shrine",
+  "category": "Browser wildlife",
+  "vibe": "Low-stakes prophecy",
+  "description": "A low-stakes prophecy browser wildlife that turns ordinary files into suspiciously meaningful relics until nobody can remember why it is charming, only that it is. It is usually found near forgotten tabs.",
+  "threat": "Mildly destabilizing",
   "usefulness": "Excellent for morale",
-  "habitat": "between two unfinished side projects",
-  "ritual": "Ask nothing from it directly",
-  "sigil": "\\\\ ## ##\n\\\\ 00 ::\n{} \\\\ ()",
+  "habitat": "near forgotten tabs",
+  "ritual": "Launch only after coffee",
+  "sigil": "\\\\ ## \\\\\n{} 00 ::\n() \\\\ ++",
   "archivedAt": null,
-  "dateKey": "2026-03-23",
-  "publishedAt": "2026-03-23T22:04:49.083Z"
+  "dateKey": "2026-03-24",
+  "publishedAt": "2026-03-24T09:08:58.495Z"
 };
