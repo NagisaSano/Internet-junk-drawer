@@ -389,6 +389,15 @@ button:active,
   transform: translateY(0);
 }
 
+button:focus-visible,
+.button-link:focus-visible,
+.guestbook-entry a:focus-visible,
+.field input:focus-visible,
+.field textarea:focus-visible {
+  outline: 3px solid rgba(143, 47, 21, 0.38);
+  outline-offset: 3px;
+}
+
 #generate-button,
 #guestbook-submit,
 .button-link {
@@ -582,6 +591,26 @@ button:active,
 
   .artifact-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  button:hover,
+  .button-link:hover {
+    transform: none;
   }
 }
 
