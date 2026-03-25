@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-03-24",
-  "name": "Low-Budget Browser Shrine",
-  "category": "Browser wildlife",
-  "vibe": "Low-stakes prophecy",
-  "description": "A low-stakes prophecy browser wildlife that turns ordinary files into suspiciously meaningful relics until nobody can remember why it is charming, only that it is. It is usually found near forgotten tabs.",
-  "threat": "Mildly destabilizing",
-  "usefulness": "Excellent for morale",
-  "habitat": "near forgotten tabs",
-  "ritual": "Launch only after coffee",
-  "sigil": "\\\\ ## \\\\\n{} 00 ::\n() \\\\ ++",
+  "id": "daily-2026-03-25",
+  "name": "Ceremonial Inbox Goblin",
+  "category": "Digital keepsake",
+  "vibe": "Administrative whimsy",
+  "description": "An administrative whimsy digital keepsake that relabels clutter as if it had a curator until you accidentally start believing in its workflow. It is usually found behind a very confident desktop shortcut.",
+  "threat": "Decorative menace",
+  "usefulness": "Suspiciously efficient",
+  "habitat": "behind a very confident desktop shortcut",
+  "ritual": "Ask nothing from it directly",
+  "sigil": "++ () []\n## 00 {}\n{} [] ##",
   "archivedAt": null,
-  "dateKey": "2026-03-24",
-  "publishedAt": "2026-03-24T09:08:58.495Z"
+  "dateKey": "2026-03-25",
+  "publishedAt": "2026-03-25T09:08:47.682Z"
 };
