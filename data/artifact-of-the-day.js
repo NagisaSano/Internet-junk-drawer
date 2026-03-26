@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-03-25",
-  "name": "Ceremonial Inbox Goblin",
-  "category": "Digital keepsake",
+  "id": "daily-2026-03-26",
+  "name": "Portable Mood Spreadsheet",
+  "category": "Domestic myth",
   "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy digital keepsake that relabels clutter as if it had a curator until you accidentally start believing in its workflow. It is usually found behind a very confident desktop shortcut.",
+  "description": "An administrative whimsy domestic myth that relabels clutter as if it had a curator until the room becomes emotionally better organized. It is usually found near forgotten tabs.",
   "threat": "Decorative menace",
-  "usefulness": "Suspiciously efficient",
-  "habitat": "behind a very confident desktop shortcut",
-  "ritual": "Ask nothing from it directly",
-  "sigil": "++ () []\n## 00 {}\n{} [] ##",
+  "usefulness": "Mostly ceremonial",
+  "habitat": "near forgotten tabs",
+  "ritual": "Offer it one broken bookmark",
+  "sigil": "() <> ()\n// 00 ~~\n<> [] []",
   "archivedAt": null,
-  "dateKey": "2026-03-25",
-  "publishedAt": "2026-03-25T09:08:47.682Z"
+  "dateKey": "2026-03-26",
+  "publishedAt": "2026-03-26T09:13:55.489Z"
 };
