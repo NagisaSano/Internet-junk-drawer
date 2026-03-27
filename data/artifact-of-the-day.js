@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-03-26",
-  "name": "Portable Mood Spreadsheet",
-  "category": "Domestic myth",
-  "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy domestic myth that relabels clutter as if it had a curator until the room becomes emotionally better organized. It is usually found near forgotten tabs.",
+  "id": "daily-2026-03-27",
+  "name": "Polite Mood Spreadsheet",
+  "category": "Digital keepsake",
+  "vibe": "Low-stakes prophecy",
+  "description": "A low-stakes prophecy digital keepsake that adds ceremonial weight to tiny bad ideas until a stranger assumes there is a deeper system. It is usually found next to screenshots with no context.",
   "threat": "Decorative menace",
   "usefulness": "Mostly ceremonial",
-  "habitat": "near forgotten tabs",
-  "ritual": "Offer it one broken bookmark",
-  "sigil": "() <> ()\n// 00 ~~\n<> [] []",
+  "habitat": "next to screenshots with no context",
+  "ritual": "Ask nothing from it directly",
+  "sigil": "\\\\ ++ ()\n<> 00 ::\n:: () ##",
   "archivedAt": null,
-  "dateKey": "2026-03-26",
-  "publishedAt": "2026-03-26T09:13:55.489Z"
+  "dateKey": "2026-03-27",
+  "publishedAt": "2026-03-27T09:08:27.970Z"
 };
