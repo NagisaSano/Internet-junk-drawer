@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-04-01",
-  "name": "Suburban Side Quest Engine",
-  "category": "Ceremonial clutter",
+  "id": "daily-2026-04-02",
+  "name": "Solar-Powered Portable Ritual",
+  "category": "Digital keepsake",
   "vibe": "Curated nonsense",
-  "description": "A curated nonsense ceremonial clutter that makes procrastination feel like archival practice until nobody can remember why it is charming, only that it is. It is usually found between two unfinished side projects.",
-  "threat": "Harmless if respected",
-  "usefulness": "Mostly ceremonial",
-  "habitat": "between two unfinished side projects",
-  "ritual": "Spin once before making plans",
-  "sigil": "<> ## []\n++ 00 ##\n~~ ++ //",
+  "description": "A curated nonsense digital keepsake that converts unread pings into decorative confidence until the room becomes emotionally better organized. It is usually found next to screenshots with no context.",
+  "threat": "Mildly destabilizing",
+  "usefulness": "Suspiciously efficient",
+  "habitat": "next to screenshots with no context",
+  "ritual": "Offer it one broken bookmark",
+  "sigil": "~~ \\\\ {}\n{} 00 []\n## // ++",
   "archivedAt": null,
-  "dateKey": "2026-04-01",
-  "publishedAt": "2026-04-01T09:35:47.983Z"
+  "dateKey": "2026-04-02",
+  "publishedAt": "2026-04-02T09:15:13.706Z"
 };
