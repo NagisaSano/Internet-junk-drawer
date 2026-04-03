@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-04-02",
-  "name": "Solar-Powered Portable Ritual",
-  "category": "Digital keepsake",
-  "vibe": "Curated nonsense",
-  "description": "A curated nonsense digital keepsake that converts unread pings into decorative confidence until the room becomes emotionally better organized. It is usually found next to screenshots with no context.",
+  "id": "daily-2026-04-03",
+  "name": "Pocket-Sized Cursor Oracle",
+  "category": "Domestic myth",
+  "vibe": "Low-stakes prophecy",
+  "description": "A low-stakes prophecy domestic myth that makes procrastination feel like archival practice until nobody can remember why it is charming, only that it is. It is usually found under the glow of a late-night monitor.",
   "threat": "Mildly destabilizing",
-  "usefulness": "Suspiciously efficient",
-  "habitat": "next to screenshots with no context",
-  "ritual": "Offer it one broken bookmark",
-  "sigil": "~~ \\\\ {}\n{} 00 []\n## // ++",
+  "usefulness": "Excellent for morale",
+  "habitat": "under the glow of a late-night monitor",
+  "ritual": "Spin once before making plans",
+  "sigil": "\\\\ // ##\n() 00 <>\n{} ~~ ~~",
   "archivedAt": null,
-  "dateKey": "2026-04-02",
-  "publishedAt": "2026-04-02T09:15:13.706Z"
+  "dateKey": "2026-04-03",
+  "publishedAt": "2026-04-03T09:10:00.266Z"
 };
