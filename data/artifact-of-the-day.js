@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-04-11",
-  "name": "Invisible Mood Spreadsheet",
-  "category": "Ceremonial clutter",
-  "vibe": "Curated nonsense",
-  "description": "A curated nonsense ceremonial clutter that makes procrastination feel like archival practice until the room becomes emotionally better organized. It is usually found next to screenshots with no context.",
-  "threat": "Harmless if respected",
-  "usefulness": "Excellent for morale",
-  "habitat": "next to screenshots with no context",
+  "id": "daily-2026-04-12",
+  "name": "Suburban Wi-Fi Totem",
+  "category": "Digital keepsake",
+  "vibe": "Administrative whimsy",
+  "description": "An administrative whimsy digital keepsake that relabels clutter as if it had a curator until nobody can remember why it is charming, only that it is. It is usually found under the glow of a late-night monitor.",
+  "threat": "Questionably legal in spirit",
+  "usefulness": "Strangely practical",
+  "habitat": "under the glow of a late-night monitor",
   "ritual": "Spin once before making plans",
-  "sigil": "// <> \\\\\n## 00 //\n~~ {} ::",
+  "sigil": "\\\\ {} //\n:: 00 ~~\n\\\\ \\\\ ()",
   "archivedAt": null,
-  "dateKey": "2026-04-11",
-  "publishedAt": "2026-04-11T09:02:22.673Z"
+  "dateKey": "2026-04-12",
+  "publishedAt": "2026-04-12T09:05:34.957Z"
 };
