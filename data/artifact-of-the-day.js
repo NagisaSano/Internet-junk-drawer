@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-04-13",
-  "name": "Low-Budget JPEG Museum",
-  "category": "Digital keepsake",
-  "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy digital keepsake that makes the desktop feel 14% more haunted in a useful way until nobody can remember why it is charming, only that it is. It is usually found behind a very confident desktop shortcut.",
-  "threat": "Safe for office folklore",
-  "usefulness": "Useful under moonlight",
-  "habitat": "behind a very confident desktop shortcut",
-  "ritual": "Offer it one broken bookmark",
-  "sigil": "++ ++ ~~\n## 00 ~~\n[] <> ()",
+  "id": "daily-2026-04-14",
+  "name": "Caffeinated Inbox Goblin",
+  "category": "Tiny machine",
+  "vibe": "Glorified side quest",
+  "description": "A glorified side quest tiny machine that converts unread pings into decorative confidence until nobody can remember why it is charming, only that it is. It is usually found inside shared folders nobody owns.",
+  "threat": "Mildly destabilizing",
+  "usefulness": "Suspiciously efficient",
+  "habitat": "inside shared folders nobody owns",
+  "ritual": "Ask nothing from it directly",
+  "sigil": "[] // ##\n<> 00 ()\n<> // ~~",
   "archivedAt": null,
-  "dateKey": "2026-04-13",
-  "publishedAt": "2026-04-13T10:05:21.041Z"
+  "dateKey": "2026-04-14",
+  "publishedAt": "2026-04-14T09:50:14.640Z"
 };
