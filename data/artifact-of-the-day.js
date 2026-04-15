@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-04-14",
-  "name": "Caffeinated Inbox Goblin",
-  "category": "Tiny machine",
-  "vibe": "Glorified side quest",
-  "description": "A glorified side quest tiny machine that converts unread pings into decorative confidence until nobody can remember why it is charming, only that it is. It is usually found inside shared folders nobody owns.",
+  "id": "daily-2026-04-15",
+  "name": "Suburban Notification Harp",
+  "category": "Ceremonial clutter",
+  "vibe": "Administrative whimsy",
+  "description": "An administrative whimsy ceremonial clutter that adds ceremonial weight to tiny bad ideas until someone mistakes it for a serious tool. It is usually found behind a very confident desktop shortcut.",
   "threat": "Mildly destabilizing",
-  "usefulness": "Suspiciously efficient",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Ask nothing from it directly",
-  "sigil": "[] // ##\n<> 00 ()\n<> // ~~",
+  "usefulness": "Strangely practical",
+  "habitat": "behind a very confident desktop shortcut",
+  "ritual": "Launch only after coffee",
+  "sigil": "## ## ()\n## 00 []\n\\\\ // ~~",
   "archivedAt": null,
-  "dateKey": "2026-04-14",
-  "publishedAt": "2026-04-14T09:50:14.640Z"
+  "dateKey": "2026-04-15",
+  "publishedAt": "2026-04-15T09:50:46.698Z"
 };
