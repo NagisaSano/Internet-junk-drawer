@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-04-15",
-  "name": "Suburban Notification Harp",
-  "category": "Ceremonial clutter",
-  "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy ceremonial clutter that adds ceremonial weight to tiny bad ideas until someone mistakes it for a serious tool. It is usually found behind a very confident desktop shortcut.",
-  "threat": "Mildly destabilizing",
+  "id": "daily-2026-04-16",
+  "name": "Museum-Grade Browser Shrine",
+  "category": "Soft threat",
+  "vibe": "Gentle menace",
+  "description": "A gentle menace soft threat that converts unread pings into decorative confidence until a stranger assumes there is a deeper system. It is usually found between two unfinished side projects.",
+  "threat": "Decorative menace",
   "usefulness": "Strangely practical",
-  "habitat": "behind a very confident desktop shortcut",
-  "ritual": "Launch only after coffee",
-  "sigil": "## ## ()\n## 00 []\n\\\\ // ~~",
+  "habitat": "between two unfinished side projects",
+  "ritual": "Ask nothing from it directly",
+  "sigil": "[] () //\n## 00 ~~\n() ~~ //",
   "archivedAt": null,
-  "dateKey": "2026-04-15",
-  "publishedAt": "2026-04-15T09:50:46.698Z"
+  "dateKey": "2026-04-16",
+  "publishedAt": "2026-04-16T09:49:31.400Z"
 };
