@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-04-16",
-  "name": "Museum-Grade Browser Shrine",
-  "category": "Soft threat",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace soft threat that converts unread pings into decorative confidence until a stranger assumes there is a deeper system. It is usually found between two unfinished side projects.",
-  "threat": "Decorative menace",
-  "usefulness": "Strangely practical",
-  "habitat": "between two unfinished side projects",
-  "ritual": "Ask nothing from it directly",
-  "sigil": "[] () //\n## 00 ~~\n() ~~ //",
+  "id": "daily-2026-04-17",
+  "name": "Polite Desktop Weather System",
+  "category": "Browser wildlife",
+  "vibe": "Glorified side quest",
+  "description": "A glorified side quest browser wildlife that turns ordinary files into suspiciously meaningful relics until someone mistakes it for a serious tool. It is usually found next to screenshots with no context.",
+  "threat": "Safe for office folklore",
+  "usefulness": "Useful under moonlight",
+  "habitat": "next to screenshots with no context",
+  "ritual": "Whisper a filename and refresh",
+  "sigil": "<> :: //\n() 00 //\n() ++ ##",
   "archivedAt": null,
-  "dateKey": "2026-04-16",
-  "publishedAt": "2026-04-16T09:49:31.400Z"
+  "dateKey": "2026-04-17",
+  "publishedAt": "2026-04-17T09:47:36.542Z"
 };
