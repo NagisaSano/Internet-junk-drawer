@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-04-17",
-  "name": "Polite Desktop Weather System",
-  "category": "Browser wildlife",
-  "vibe": "Glorified side quest",
-  "description": "A glorified side quest browser wildlife that turns ordinary files into suspiciously meaningful relics until someone mistakes it for a serious tool. It is usually found next to screenshots with no context.",
-  "threat": "Safe for office folklore",
-  "usefulness": "Useful under moonlight",
-  "habitat": "next to screenshots with no context",
-  "ritual": "Whisper a filename and refresh",
-  "sigil": "<> :: //\n() 00 //\n() ++ ##",
+  "id": "daily-2026-04-18",
+  "name": "Invisible Wi-Fi Totem",
+  "category": "Office folklore",
+  "vibe": "Warm absurdity",
+  "description": "A warm absurdity office folklore that turns ordinary files into suspiciously meaningful relics until nobody can remember why it is charming, only that it is. It is usually found near forgotten tabs.",
+  "threat": "Questionably legal in spirit",
+  "usefulness": "Suspiciously efficient",
+  "habitat": "near forgotten tabs",
+  "ritual": "Spin once before making plans",
+  "sigil": "++ ## ()\n{} 00 ++\n() {} <>",
   "archivedAt": null,
-  "dateKey": "2026-04-17",
-  "publishedAt": "2026-04-17T09:47:36.542Z"
+  "dateKey": "2026-04-18",
+  "publishedAt": "2026-04-18T09:05:19.049Z"
 };
