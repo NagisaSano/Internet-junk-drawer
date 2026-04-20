@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-04-19",
-  "name": "Polite Cursor Oracle",
-  "category": "Tiny machine",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace tiny machine that converts unread pings into decorative confidence until a stranger assumes there is a deeper system. It is usually found next to screenshots with no context.",
-  "threat": "Harmless if respected",
-  "usefulness": "Suspiciously efficient",
-  "habitat": "next to screenshots with no context",
-  "ritual": "Offer it one broken bookmark",
-  "sigil": "[] <> {}\n:: 00 []\n<> ## ++",
+  "id": "daily-2026-04-20",
+  "name": "Portable Deadline Mirage",
+  "category": "Soft threat",
+  "vibe": "Low-stakes prophecy",
+  "description": "A low-stakes prophecy soft threat that turns ordinary files into suspiciously meaningful relics until nobody can remember why it is charming, only that it is. It is usually found behind a very confident desktop shortcut.",
+  "threat": "Safe for office folklore",
+  "usefulness": "Strangely practical",
+  "habitat": "behind a very confident desktop shortcut",
+  "ritual": "Launch only after coffee",
+  "sigil": ":: :: \\\\\n\\\\ 00 <>\n[] {} {}",
   "archivedAt": null,
-  "dateKey": "2026-04-19",
-  "publishedAt": "2026-04-19T09:06:52.016Z"
+  "dateKey": "2026-04-20",
+  "publishedAt": "2026-04-20T10:09:56.998Z"
 };
