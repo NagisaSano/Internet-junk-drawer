@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-04-23",
-  "name": "Emergency Cursor Oracle",
-  "category": "Office folklore",
-  "vibe": "Curated nonsense",
-  "description": "A curated nonsense office folklore that turns ordinary files into suspiciously meaningful relics until you accidentally start believing in its workflow. It is usually found behind a very confident desktop shortcut.",
+  "id": "daily-2026-04-24",
+  "name": "Polite Inbox Goblin",
+  "category": "Domestic myth",
+  "vibe": "Administrative whimsy",
+  "description": "An administrative whimsy domestic myth that adds ceremonial weight to tiny bad ideas until a stranger assumes there is a deeper system. It is usually found inside shared folders nobody owns.",
   "threat": "Decorative menace",
-  "usefulness": "Suspiciously efficient",
-  "habitat": "behind a very confident desktop shortcut",
-  "ritual": "Launch only after coffee",
-  "sigil": ":: ## <>\n++ 00 ++\n() \\\\ //",
+  "usefulness": "Useful under moonlight",
+  "habitat": "inside shared folders nobody owns",
+  "ritual": "Spin once before making plans",
+  "sigil": "{} // {}\n<> 00 {}\n\\\\ :: ::",
   "archivedAt": null,
-  "dateKey": "2026-04-23",
-  "publishedAt": "2026-04-23T09:57:13.423Z"
+  "dateKey": "2026-04-24",
+  "publishedAt": "2026-04-24T09:55:12.304Z"
 };
