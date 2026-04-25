@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-04-24",
-  "name": "Polite Inbox Goblin",
-  "category": "Domestic myth",
-  "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy domestic myth that adds ceremonial weight to tiny bad ideas until a stranger assumes there is a deeper system. It is usually found inside shared folders nobody owns.",
+  "id": "daily-2026-04-25",
+  "name": "Low-Budget Inbox Goblin",
+  "category": "Tiny machine",
+  "vibe": "Low-stakes prophecy",
+  "description": "A low-stakes prophecy tiny machine that makes the desktop feel 14% more haunted in a useful way until a stranger assumes there is a deeper system. It is usually found between two unfinished side projects.",
   "threat": "Decorative menace",
-  "usefulness": "Useful under moonlight",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Spin once before making plans",
-  "sigil": "{} // {}\n<> 00 {}\n\\\\ :: ::",
+  "usefulness": "Excellent for morale",
+  "habitat": "between two unfinished side projects",
+  "ritual": "Ask nothing from it directly",
+  "sigil": "++ ++ ~~\n++ 00 ++\n<> {} //",
   "archivedAt": null,
-  "dateKey": "2026-04-24",
-  "publishedAt": "2026-04-24T09:55:12.304Z"
+  "dateKey": "2026-04-25",
+  "publishedAt": "2026-04-25T09:10:13.041Z"
 };
