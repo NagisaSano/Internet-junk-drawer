@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-04-28",
-  "name": "Museum-Grade Notification Harp",
-  "category": "Tiny machine",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace tiny machine that converts unread pings into decorative confidence until the repo gains one more unexplained feature. It is usually found near forgotten tabs.",
-  "threat": "Harmless if respected",
-  "usefulness": "Excellent for morale",
-  "habitat": "near forgotten tabs",
-  "ritual": "Spin once before making plans",
-  "sigil": "// () ++\n:: 00 ()\n++ {} \\\\",
+  "id": "daily-2026-04-29",
+  "name": "Low-Budget Inbox Goblin",
+  "category": "Domestic myth",
+  "vibe": "Administrative whimsy",
+  "description": "An administrative whimsy domestic myth that turns ordinary files into suspiciously meaningful relics until you accidentally start believing in its workflow. It is usually found behind a very confident desktop shortcut.",
+  "threat": "Questionably legal in spirit",
+  "usefulness": "Suspiciously efficient",
+  "habitat": "behind a very confident desktop shortcut",
+  "ritual": "Offer it one broken bookmark",
+  "sigil": "// () ::\n{} 00 \\\\\n:: [] ##",
   "archivedAt": null,
-  "dateKey": "2026-04-28",
-  "publishedAt": "2026-04-28T10:25:29.082Z"
+  "dateKey": "2026-04-29",
+  "publishedAt": "2026-04-29T10:19:29.761Z"
 };
