@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-04-30",
-  "name": "Polite Tab Fossil",
-  "category": "Browser wildlife",
-  "vibe": "Curated nonsense",
-  "description": "A curated nonsense browser wildlife that makes the desktop feel 14% more haunted in a useful way until the room becomes emotionally better organized. It is usually found behind a very confident desktop shortcut.",
-  "threat": "Mildly destabilizing",
-  "usefulness": "Strangely practical",
-  "habitat": "behind a very confident desktop shortcut",
-  "ritual": "Offer it one broken bookmark",
-  "sigil": "// () ++\n{} 00 []\n\\\\ <> ()",
+  "id": "daily-2026-05-01",
+  "name": "Polite Deadline Mirage",
+  "category": "Ceremonial clutter",
+  "vibe": "Glorified side quest",
+  "description": "A glorified side quest ceremonial clutter that converts unread pings into decorative confidence until the repo gains one more unexplained feature. It is usually found near forgotten tabs.",
+  "threat": "Questionably legal in spirit",
+  "usefulness": "Excellent for morale",
+  "habitat": "near forgotten tabs",
+  "ritual": "Double-click at dusk",
+  "sigil": "## {} ##\n// 00 []\n{} [] {}",
   "archivedAt": null,
-  "dateKey": "2026-04-30",
-  "publishedAt": "2026-04-30T10:19:28.723Z"
+  "dateKey": "2026-05-01",
+  "publishedAt": "2026-05-01T09:57:54.284Z"
 };
