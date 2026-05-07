@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-05-06",
-  "name": "Suburban Mood Spreadsheet",
-  "category": "Ceremonial clutter",
+  "id": "daily-2026-05-07",
+  "name": "Invisible Side Quest Engine",
+  "category": "Soft threat",
   "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy ceremonial clutter that turns ordinary files into suspiciously meaningful relics until the room becomes emotionally better organized. It is usually found inside shared folders nobody owns.",
-  "threat": "Harmless if respected",
+  "description": "An administrative whimsy soft threat that relabels clutter as if it had a curator until a stranger assumes there is a deeper system. It is usually found near forgotten tabs.",
+  "threat": "Mildly destabilizing",
   "usefulness": "Suspiciously efficient",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Spin once before making plans",
-  "sigil": "[] :: <>\n\\\\ 00 ::\n// :: //",
+  "habitat": "near forgotten tabs",
+  "ritual": "Double-click at dusk",
+  "sigil": "() :: <>\n## 00 {}\n~~ :: ()",
   "archivedAt": null,
-  "dateKey": "2026-05-06",
-  "publishedAt": "2026-05-06T10:27:01.727Z"
+  "dateKey": "2026-05-07",
+  "publishedAt": "2026-05-07T10:34:46.109Z"
 };
