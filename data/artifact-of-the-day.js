@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-05-11",
-  "name": "Pocket-Sized Side Quest Engine",
-  "category": "Digital keepsake",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace digital keepsake that makes procrastination feel like archival practice until the repo gains one more unexplained feature. It is usually found next to screenshots with no context.",
-  "threat": "Decorative menace",
-  "usefulness": "Useful under moonlight",
-  "habitat": "next to screenshots with no context",
-  "ritual": "Spin once before making plans",
-  "sigil": ":: \\\\ ##\n() 00 \\\\\n:: [] ::",
+  "id": "daily-2026-05-12",
+  "name": "Museum-Grade Side Quest Engine",
+  "category": "Office folklore",
+  "vibe": "Warm absurdity",
+  "description": "A warm absurdity office folklore that makes the desktop feel 14% more haunted in a useful way until nobody can remember why it is charming, only that it is. It is usually found inside shared folders nobody owns.",
+  "threat": "Mildly destabilizing",
+  "usefulness": "Excellent for morale",
+  "habitat": "inside shared folders nobody owns",
+  "ritual": "Offer it one broken bookmark",
+  "sigil": "<> {} ::\n~~ 00 //\n\\\\ :: []",
   "archivedAt": null,
-  "dateKey": "2026-05-11",
-  "publishedAt": "2026-05-11T11:36:28.683Z"
+  "dateKey": "2026-05-12",
+  "publishedAt": "2026-05-12T10:42:31.183Z"
 };
