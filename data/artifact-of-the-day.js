@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-05-13",
-  "name": "Low-Budget Deadline Mirage",
-  "category": "Ceremonial clutter",
-  "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy ceremonial clutter that makes procrastination feel like archival practice until the room becomes emotionally better organized. It is usually found between two unfinished side projects.",
-  "threat": "Safe for office folklore",
-  "usefulness": "Excellent for morale",
+  "id": "daily-2026-05-14",
+  "name": "Overengineered JPEG Museum",
+  "category": "Office folklore",
+  "vibe": "Glorified side quest",
+  "description": "A glorified side quest office folklore that converts unread pings into decorative confidence until someone mistakes it for a serious tool. It is usually found between two unfinished side projects.",
+  "threat": "Decorative menace",
+  "usefulness": "Strangely practical",
   "habitat": "between two unfinished side projects",
-  "ritual": "Ask nothing from it directly",
-  "sigil": "## ++ \\\\\n## 00 \\\\\n{} // \\\\",
+  "ritual": "Whisper a filename and refresh",
+  "sigil": "// <> //\n() 00 []\n:: ## \\\\",
   "archivedAt": null,
-  "dateKey": "2026-05-13",
-  "publishedAt": "2026-05-13T10:43:13.777Z"
+  "dateKey": "2026-05-14",
+  "publishedAt": "2026-05-14T10:34:01.567Z"
 };
