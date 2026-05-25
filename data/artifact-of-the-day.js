@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-05-24",
-  "name": "Ceremonial Tab Fossil",
-  "category": "Domestic myth",
+  "id": "daily-2026-05-25",
+  "name": "Low-Budget Notification Harp",
+  "category": "Ceremonial clutter",
   "vibe": "Low-stakes prophecy",
-  "description": "A low-stakes prophecy domestic myth that converts unread pings into decorative confidence until the room becomes emotionally better organized. It is usually found behind a very confident desktop shortcut.",
-  "threat": "Decorative menace",
-  "usefulness": "Excellent for morale",
-  "habitat": "behind a very confident desktop shortcut",
-  "ritual": "Ask nothing from it directly",
-  "sigil": "<> :: []\n// 00 ++\n<> [] ()",
+  "description": "A low-stakes prophecy ceremonial clutter that adds ceremonial weight to tiny bad ideas until you accidentally start believing in its workflow. It is usually found next to screenshots with no context.",
+  "threat": "Mildly destabilizing",
+  "usefulness": "Useful under moonlight",
+  "habitat": "next to screenshots with no context",
+  "ritual": "Double-click at dusk",
+  "sigil": "[] ~~ ~~\n// 00 {}\n:: // ++",
   "archivedAt": null,
-  "dateKey": "2026-05-24",
-  "publishedAt": "2026-05-24T10:10:48.175Z"
+  "dateKey": "2026-05-25",
+  "publishedAt": "2026-05-25T11:59:36.514Z"
 };
