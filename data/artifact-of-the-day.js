@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-06-05",
-  "name": "Biodegradable JPEG Museum",
-  "category": "Browser wildlife",
-  "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy browser wildlife that converts unread pings into decorative confidence until the room becomes emotionally better organized. It is usually found under the glow of a late-night monitor.",
-  "threat": "Mildly destabilizing",
-  "usefulness": "Excellent for morale",
-  "habitat": "under the glow of a late-night monitor",
-  "ritual": "Spin once before making plans",
-  "sigil": ":: \\\\ ++\n[] 00 ++\n++ ++ ::",
+  "id": "daily-2026-06-06",
+  "name": "Overengineered JPEG Museum",
+  "category": "Tiny machine",
+  "vibe": "Low-stakes prophecy",
+  "description": "A low-stakes prophecy tiny machine that makes procrastination feel like archival practice until nobody can remember why it is charming, only that it is. It is usually found next to screenshots with no context.",
+  "threat": "Questionably legal in spirit",
+  "usefulness": "Useful under moonlight",
+  "habitat": "next to screenshots with no context",
+  "ritual": "Double-click at dusk",
+  "sigil": "## :: ::\n() 00 <>\n\\\\ ++ ::",
   "archivedAt": null,
-  "dateKey": "2026-06-05",
-  "publishedAt": "2026-06-05T11:35:51.781Z"
+  "dateKey": "2026-06-06",
+  "publishedAt": "2026-06-06T10:21:35.431Z"
 };
