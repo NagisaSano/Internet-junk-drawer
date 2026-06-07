@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-06-06",
-  "name": "Overengineered JPEG Museum",
+  "id": "daily-2026-06-07",
+  "name": "Low-Budget Mood Spreadsheet",
   "category": "Tiny machine",
-  "vibe": "Low-stakes prophecy",
-  "description": "A low-stakes prophecy tiny machine that makes procrastination feel like archival practice until nobody can remember why it is charming, only that it is. It is usually found next to screenshots with no context.",
+  "vibe": "Gentle menace",
+  "description": "A gentle menace tiny machine that makes the desktop feel 14% more haunted in a useful way until a stranger assumes there is a deeper system. It is usually found inside shared folders nobody owns.",
   "threat": "Questionably legal in spirit",
-  "usefulness": "Useful under moonlight",
-  "habitat": "next to screenshots with no context",
-  "ritual": "Double-click at dusk",
-  "sigil": "## :: ::\n() 00 <>\n\\\\ ++ ::",
+  "usefulness": "Suspiciously efficient",
+  "habitat": "inside shared folders nobody owns",
+  "ritual": "Spin once before making plans",
+  "sigil": "++ ## ##\n~~ 00 ::\n~~ ## ~~",
   "archivedAt": null,
-  "dateKey": "2026-06-06",
-  "publishedAt": "2026-06-06T10:21:35.431Z"
+  "dateKey": "2026-06-07",
+  "publishedAt": "2026-06-07T10:35:52.269Z"
 };
