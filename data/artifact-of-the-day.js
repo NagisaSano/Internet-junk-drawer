@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-06-12",
-  "name": "Overengineered Deadline Mirage",
-  "category": "Browser wildlife",
-  "vibe": "Glorified side quest",
-  "description": "A glorified side quest browser wildlife that turns ordinary files into suspiciously meaningful relics until a stranger assumes there is a deeper system. It is usually found inside shared folders nobody owns.",
-  "threat": "Mildly destabilizing",
+  "id": "daily-2026-06-13",
+  "name": "Polite Portable Ritual",
+  "category": "Soft threat",
+  "vibe": "Administrative whimsy",
+  "description": "An administrative whimsy soft threat that makes procrastination feel like archival practice until the room becomes emotionally better organized. It is usually found under the glow of a late-night monitor.",
+  "threat": "Safe for office folklore",
   "usefulness": "Strangely practical",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Ask nothing from it directly",
-  "sigil": "() \\\\ //\n() 00 \\\\\n## // ()",
+  "habitat": "under the glow of a late-night monitor",
+  "ritual": "Double-click at dusk",
+  "sigil": "() <> //\n<> 00 \\\\\n:: [] //",
   "archivedAt": null,
-  "dateKey": "2026-06-12",
-  "publishedAt": "2026-06-12T11:52:45.283Z"
+  "dateKey": "2026-06-13",
+  "publishedAt": "2026-06-13T10:38:40.686Z"
 };
