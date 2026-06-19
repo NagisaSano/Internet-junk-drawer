@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-06-18",
-  "name": "Biodegradable Desktop Weather System",
-  "category": "Office folklore",
+  "id": "daily-2026-06-19",
+  "name": "Solar-Powered Tab Fossil",
+  "category": "Soft threat",
   "vibe": "Low-stakes prophecy",
-  "description": "A low-stakes prophecy office folklore that turns ordinary files into suspiciously meaningful relics until someone mistakes it for a serious tool. It is usually found inside shared folders nobody owns.",
+  "description": "A low-stakes prophecy soft threat that makes the desktop feel 14% more haunted in a useful way until nobody can remember why it is charming, only that it is. It is usually found under the glow of a late-night monitor.",
   "threat": "Mildly destabilizing",
   "usefulness": "Strangely practical",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Whisper a filename and refresh",
-  "sigil": "++ ~~ ::\n[] 00 ##\n\\\\ :: ++",
+  "habitat": "under the glow of a late-night monitor",
+  "ritual": "Ask nothing from it directly",
+  "sigil": "++ \\\\ []\n\\\\ 00 //\n:: :: ()",
   "archivedAt": null,
-  "dateKey": "2026-06-18",
-  "publishedAt": "2026-06-18T11:57:22.083Z"
+  "dateKey": "2026-06-19",
+  "publishedAt": "2026-06-19T12:17:24.007Z"
 };
