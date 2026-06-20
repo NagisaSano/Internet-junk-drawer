@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-06-19",
-  "name": "Solar-Powered Tab Fossil",
-  "category": "Soft threat",
-  "vibe": "Low-stakes prophecy",
-  "description": "A low-stakes prophecy soft threat that makes the desktop feel 14% more haunted in a useful way until nobody can remember why it is charming, only that it is. It is usually found under the glow of a late-night monitor.",
+  "id": "daily-2026-06-20",
+  "name": "Overengineered Wi-Fi Totem",
+  "category": "Domestic myth",
+  "vibe": "Curated nonsense",
+  "description": "A curated nonsense domestic myth that converts unread pings into decorative confidence until a stranger assumes there is a deeper system. It is usually found inside shared folders nobody owns.",
   "threat": "Mildly destabilizing",
-  "usefulness": "Strangely practical",
-  "habitat": "under the glow of a late-night monitor",
-  "ritual": "Ask nothing from it directly",
-  "sigil": "++ \\\\ []\n\\\\ 00 //\n:: :: ()",
+  "usefulness": "Mostly ceremonial",
+  "habitat": "inside shared folders nobody owns",
+  "ritual": "Whisper a filename and refresh",
+  "sigil": "\\\\ {} ::\n// 00 ##\n// \\\\ ~~",
   "archivedAt": null,
-  "dateKey": "2026-06-19",
-  "publishedAt": "2026-06-19T12:17:24.007Z"
+  "dateKey": "2026-06-20",
+  "publishedAt": "2026-06-20T10:40:45.320Z"
 };
