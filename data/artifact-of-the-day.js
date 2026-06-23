@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-06-22",
-  "name": "Ceremonial Inbox Goblin",
-  "category": "Tiny machine",
-  "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy tiny machine that relabels clutter as if it had a curator until the room becomes emotionally better organized. It is usually found behind a very confident desktop shortcut.",
+  "id": "daily-2026-06-23",
+  "name": "Overengineered Deadline Mirage",
+  "category": "Digital keepsake",
+  "vibe": "Gentle menace",
+  "description": "A gentle menace digital keepsake that converts unread pings into decorative confidence until someone mistakes it for a serious tool. It is usually found under the glow of a late-night monitor.",
   "threat": "Decorative menace",
   "usefulness": "Excellent for morale",
-  "habitat": "behind a very confident desktop shortcut",
-  "ritual": "Double-click at dusk",
-  "sigil": "\\\\ ## ()\n\\\\ 00 []\n\\\\ :: //",
+  "habitat": "under the glow of a late-night monitor",
+  "ritual": "Offer it one broken bookmark",
+  "sigil": "[] :: []\n## 00 \\\\\n// ~~ ~~",
   "archivedAt": null,
-  "dateKey": "2026-06-22",
-  "publishedAt": "2026-06-22T13:43:19.936Z"
+  "dateKey": "2026-06-23",
+  "publishedAt": "2026-06-23T11:31:05.796Z"
 };
