@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-06-26",
-  "name": "Emergency Desktop Weather System",
-  "category": "Soft threat",
-  "vibe": "Glorified side quest",
-  "description": "A glorified side quest soft threat that makes the desktop feel 14% more haunted in a useful way until a stranger assumes there is a deeper system. It is usually found near forgotten tabs.",
-  "threat": "Harmless if respected",
-  "usefulness": "Suspiciously efficient",
-  "habitat": "near forgotten tabs",
-  "ritual": "Double-click at dusk",
-  "sigil": "++ :: ()\n[] 00 \\\\\n() [] //",
+  "id": "daily-2026-06-27",
+  "name": "Portable JPEG Museum",
+  "category": "Domestic myth",
+  "vibe": "Administrative whimsy",
+  "description": "An administrative whimsy domestic myth that makes the desktop feel 14% more haunted in a useful way until the room becomes emotionally better organized. It is usually found inside shared folders nobody owns.",
+  "threat": "Questionably legal in spirit",
+  "usefulness": "Mostly ceremonial",
+  "habitat": "inside shared folders nobody owns",
+  "ritual": "Offer it one broken bookmark",
+  "sigil": "~~ [] \\\\\n\\\\ 00 ##\n~~ // <>",
   "archivedAt": null,
-  "dateKey": "2026-06-26",
-  "publishedAt": "2026-06-26T11:14:14.981Z"
+  "dateKey": "2026-06-27",
+  "publishedAt": "2026-06-27T10:23:18.236Z"
 };
