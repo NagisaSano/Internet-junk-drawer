@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-06-28",
-  "name": "Biodegradable Side Quest Engine",
-  "category": "Office folklore",
+  "id": "daily-2026-06-29",
+  "name": "Invisible Mood Spreadsheet",
+  "category": "Soft threat",
   "vibe": "Curated nonsense",
-  "description": "A curated nonsense office folklore that adds ceremonial weight to tiny bad ideas until the room becomes emotionally better organized. It is usually found near forgotten tabs.",
-  "threat": "Decorative menace",
-  "usefulness": "Suspiciously efficient",
-  "habitat": "near forgotten tabs",
-  "ritual": "Spin once before making plans",
-  "sigil": "{} // //\n## 00 <>\n:: ## ()",
+  "description": "A curated nonsense soft threat that turns ordinary files into suspiciously meaningful relics until the room becomes emotionally better organized. It is usually found inside shared folders nobody owns.",
+  "threat": "Mildly destabilizing",
+  "usefulness": "Excellent for morale",
+  "habitat": "inside shared folders nobody owns",
+  "ritual": "Offer it one broken bookmark",
+  "sigil": "~~ \\\\ <>\n() 00 {}\n// ~~ \\\\",
   "archivedAt": null,
-  "dateKey": "2026-06-28",
-  "publishedAt": "2026-06-28T10:34:36.123Z"
+  "dateKey": "2026-06-29",
+  "publishedAt": "2026-06-29T12:41:50.629Z"
 };
