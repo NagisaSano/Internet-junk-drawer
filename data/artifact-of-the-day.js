@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-06-29",
-  "name": "Invisible Mood Spreadsheet",
+  "id": "daily-2026-06-30",
+  "name": "Portable Wi-Fi Totem",
   "category": "Soft threat",
-  "vibe": "Curated nonsense",
-  "description": "A curated nonsense soft threat that turns ordinary files into suspiciously meaningful relics until the room becomes emotionally better organized. It is usually found inside shared folders nobody owns.",
-  "threat": "Mildly destabilizing",
-  "usefulness": "Excellent for morale",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Offer it one broken bookmark",
-  "sigil": "~~ \\\\ <>\n() 00 {}\n// ~~ \\\\",
+  "vibe": "Warm absurdity",
+  "description": "A warm absurdity soft threat that converts unread pings into decorative confidence until the repo gains one more unexplained feature. It is usually found next to screenshots with no context.",
+  "threat": "Questionably legal in spirit",
+  "usefulness": "Useful under moonlight",
+  "habitat": "next to screenshots with no context",
+  "ritual": "Launch only after coffee",
+  "sigil": "// // ##\n## 00 ##\n## ~~ []",
   "archivedAt": null,
-  "dateKey": "2026-06-29",
-  "publishedAt": "2026-06-29T12:41:50.629Z"
+  "dateKey": "2026-06-30",
+  "publishedAt": "2026-06-30T11:20:59.049Z"
 };
