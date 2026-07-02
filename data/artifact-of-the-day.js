@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-07-01",
-  "name": "Suburban Browser Shrine",
-  "category": "Office folklore",
-  "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy office folklore that adds ceremonial weight to tiny bad ideas until the room becomes emotionally better organized. It is usually found behind a very confident desktop shortcut.",
-  "threat": "Decorative menace",
+  "id": "daily-2026-07-02",
+  "name": "Solar-Powered Wi-Fi Totem",
+  "category": "Soft threat",
+  "vibe": "Gentle menace",
+  "description": "A gentle menace soft threat that relabels clutter as if it had a curator until you accidentally start believing in its workflow. It is usually found between two unfinished side projects.",
+  "threat": "Safe for office folklore",
   "usefulness": "Useful under moonlight",
-  "habitat": "behind a very confident desktop shortcut",
-  "ritual": "Launch only after coffee",
-  "sigil": "~~ <> ~~\n{} 00 ()\n:: {} <>",
+  "habitat": "between two unfinished side projects",
+  "ritual": "Spin once before making plans",
+  "sigil": "~~ ++ ~~\n{} 00 []\n## :: ++",
   "archivedAt": null,
-  "dateKey": "2026-07-01",
-  "publishedAt": "2026-07-01T11:32:45.299Z"
+  "dateKey": "2026-07-02",
+  "publishedAt": "2026-07-02T11:01:11.727Z"
 };
