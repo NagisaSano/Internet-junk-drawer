@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-07-02",
-  "name": "Solar-Powered Wi-Fi Totem",
+  "id": "daily-2026-07-03",
+  "name": "Invisible Deadline Mirage",
   "category": "Soft threat",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace soft threat that relabels clutter as if it had a curator until you accidentally start believing in its workflow. It is usually found between two unfinished side projects.",
-  "threat": "Safe for office folklore",
+  "vibe": "Glorified side quest",
+  "description": "A glorified side quest soft threat that converts unread pings into decorative confidence until the repo gains one more unexplained feature. It is usually found near forgotten tabs.",
+  "threat": "Questionably legal in spirit",
   "usefulness": "Useful under moonlight",
-  "habitat": "between two unfinished side projects",
-  "ritual": "Spin once before making plans",
-  "sigil": "~~ ++ ~~\n{} 00 []\n## :: ++",
+  "habitat": "near forgotten tabs",
+  "ritual": "Launch only after coffee",
+  "sigil": "~~ ++ ::\n{} 00 ++\n~~ ~~ ()",
   "archivedAt": null,
-  "dateKey": "2026-07-02",
-  "publishedAt": "2026-07-02T11:01:11.727Z"
+  "dateKey": "2026-07-03",
+  "publishedAt": "2026-07-03T10:49:34.277Z"
 };
