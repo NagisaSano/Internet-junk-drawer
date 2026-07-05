@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-07-04",
-  "name": "Ceremonial Inbox Goblin",
-  "category": "Digital keepsake",
-  "vibe": "Glorified side quest",
-  "description": "A glorified side quest digital keepsake that relabels clutter as if it had a curator until a stranger assumes there is a deeper system. It is usually found near forgotten tabs.",
-  "threat": "Questionably legal in spirit",
-  "usefulness": "Useful under moonlight",
+  "id": "daily-2026-07-05",
+  "name": "Polite Browser Shrine",
+  "category": "Soft threat",
+  "vibe": "Low-stakes prophecy",
+  "description": "A low-stakes prophecy soft threat that makes procrastination feel like archival practice until the repo gains one more unexplained feature. It is usually found near forgotten tabs.",
+  "threat": "Mildly destabilizing",
+  "usefulness": "Mostly ceremonial",
   "habitat": "near forgotten tabs",
-  "ritual": "Double-click at dusk",
-  "sigil": "// {} ::\n[] 00 []\n++ () {}",
+  "ritual": "Launch only after coffee",
+  "sigil": "~~ {} ##\n~~ 00 <>\n## \\\\ {}",
   "archivedAt": null,
-  "dateKey": "2026-07-04",
-  "publishedAt": "2026-07-04T10:24:56.067Z"
+  "dateKey": "2026-07-05",
+  "publishedAt": "2026-07-05T10:27:33.172Z"
 };
