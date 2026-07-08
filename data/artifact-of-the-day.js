@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-07-07",
-  "name": "Emergency Deadline Mirage",
-  "category": "Soft threat",
+  "id": "daily-2026-07-08",
+  "name": "Solar-Powered Desktop Weather System",
+  "category": "Ceremonial clutter",
   "vibe": "Glorified side quest",
-  "description": "A glorified side quest soft threat that converts unread pings into decorative confidence until a stranger assumes there is a deeper system. It is usually found next to screenshots with no context.",
-  "threat": "Safe for office folklore",
-  "usefulness": "Strangely practical",
-  "habitat": "next to screenshots with no context",
-  "ritual": "Spin once before making plans",
-  "sigil": "~~ \\\\ ++\n{} 00 {}\n() \\\\ {}",
+  "description": "A glorified side quest ceremonial clutter that converts unread pings into decorative confidence until the room becomes emotionally better organized. It is usually found behind a very confident desktop shortcut.",
+  "threat": "Mildly destabilizing",
+  "usefulness": "Mostly ceremonial",
+  "habitat": "behind a very confident desktop shortcut",
+  "ritual": "Whisper a filename and refresh",
+  "sigil": "() ++ ++\n{} 00 //\n// // ()",
   "archivedAt": null,
-  "dateKey": "2026-07-07",
-  "publishedAt": "2026-07-07T11:18:45.210Z"
+  "dateKey": "2026-07-08",
+  "publishedAt": "2026-07-08T10:30:13.952Z"
 };
