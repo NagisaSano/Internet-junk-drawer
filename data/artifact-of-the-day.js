@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-07-09",
-  "name": "Solar-Powered Side Quest Engine",
-  "category": "Digital keepsake",
-  "vibe": "Warm absurdity",
-  "description": "A warm absurdity digital keepsake that turns ordinary files into suspiciously meaningful relics until the room becomes emotionally better organized. It is usually found next to screenshots with no context.",
+  "id": "daily-2026-07-10",
+  "name": "Unauthorized Browser Shrine",
+  "category": "Tiny machine",
+  "vibe": "Gentle menace",
+  "description": "A gentle menace tiny machine that makes the desktop feel 14% more haunted in a useful way until nobody can remember why it is charming, only that it is. It is usually found between two unfinished side projects.",
   "threat": "Questionably legal in spirit",
   "usefulness": "Excellent for morale",
-  "habitat": "next to screenshots with no context",
+  "habitat": "between two unfinished side projects",
   "ritual": "Offer it one broken bookmark",
-  "sigil": "// :: \\\\\n:: 00 ##\n// ~~ ++",
+  "sigil": "() <> <>\n() 00 ++\n{} ++ ##",
   "archivedAt": null,
-  "dateKey": "2026-07-09",
-  "publishedAt": "2026-07-09T11:18:34.551Z"
+  "dateKey": "2026-07-10",
+  "publishedAt": "2026-07-10T11:18:52.798Z"
 };
