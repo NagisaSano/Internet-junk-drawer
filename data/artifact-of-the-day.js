@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-07-10",
-  "name": "Unauthorized Browser Shrine",
-  "category": "Tiny machine",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace tiny machine that makes the desktop feel 14% more haunted in a useful way until nobody can remember why it is charming, only that it is. It is usually found between two unfinished side projects.",
-  "threat": "Questionably legal in spirit",
-  "usefulness": "Excellent for morale",
+  "id": "daily-2026-07-11",
+  "name": "Portable Notification Harp",
+  "category": "Digital keepsake",
+  "vibe": "Warm absurdity",
+  "description": "A warm absurdity digital keepsake that turns ordinary files into suspiciously meaningful relics until the repo gains one more unexplained feature. It is usually found between two unfinished side projects.",
+  "threat": "Decorative menace",
+  "usefulness": "Mostly ceremonial",
   "habitat": "between two unfinished side projects",
-  "ritual": "Offer it one broken bookmark",
-  "sigil": "() <> <>\n() 00 ++\n{} ++ ##",
+  "ritual": "Spin once before making plans",
+  "sigil": "<> \\\\ \\\\\n~~ 00 ()\n// {} []",
   "archivedAt": null,
-  "dateKey": "2026-07-10",
-  "publishedAt": "2026-07-10T11:18:52.798Z"
+  "dateKey": "2026-07-11",
+  "publishedAt": "2026-07-11T09:48:04.937Z"
 };
