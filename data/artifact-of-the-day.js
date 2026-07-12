@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-07-11",
-  "name": "Portable Notification Harp",
-  "category": "Digital keepsake",
-  "vibe": "Warm absurdity",
-  "description": "A warm absurdity digital keepsake that turns ordinary files into suspiciously meaningful relics until the repo gains one more unexplained feature. It is usually found between two unfinished side projects.",
-  "threat": "Decorative menace",
-  "usefulness": "Mostly ceremonial",
-  "habitat": "between two unfinished side projects",
-  "ritual": "Spin once before making plans",
-  "sigil": "<> \\\\ \\\\\n~~ 00 ()\n// {} []",
+  "id": "daily-2026-07-12",
+  "name": "Museum-Grade Wi-Fi Totem",
+  "category": "Soft threat",
+  "vibe": "Gentle menace",
+  "description": "A gentle menace soft threat that adds ceremonial weight to tiny bad ideas until you accidentally start believing in its workflow. It is usually found near forgotten tabs.",
+  "threat": "Safe for office folklore",
+  "usefulness": "Excellent for morale",
+  "habitat": "near forgotten tabs",
+  "ritual": "Ask nothing from it directly",
+  "sigil": "\\\\ // <>\n## 00 ++\n[] \\\\ //",
   "archivedAt": null,
-  "dateKey": "2026-07-11",
-  "publishedAt": "2026-07-11T09:48:04.937Z"
+  "dateKey": "2026-07-12",
+  "publishedAt": "2026-07-12T10:00:33.572Z"
 };
