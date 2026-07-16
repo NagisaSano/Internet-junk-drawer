@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-07-15",
-  "name": "Biodegradable Cursor Oracle",
-  "category": "Browser wildlife",
-  "vibe": "Low-stakes prophecy",
-  "description": "A low-stakes prophecy browser wildlife that relabels clutter as if it had a curator until nobody can remember why it is charming, only that it is. It is usually found between two unfinished side projects.",
-  "threat": "Questionably legal in spirit",
-  "usefulness": "Mostly ceremonial",
-  "habitat": "between two unfinished side projects",
-  "ritual": "Double-click at dusk",
-  "sigil": "[] {} ~~\n() 00 \\\\\n<> // ~~",
+  "id": "daily-2026-07-16",
+  "name": "Solar-Powered Deadline Mirage",
+  "category": "Domestic myth",
+  "vibe": "Curated nonsense",
+  "description": "A curated nonsense domestic myth that makes the desktop feel 14% more haunted in a useful way until a stranger assumes there is a deeper system. It is usually found next to screenshots with no context.",
+  "threat": "Mildly destabilizing",
+  "usefulness": "Useful under moonlight",
+  "habitat": "next to screenshots with no context",
+  "ritual": "Launch only after coffee",
+  "sigil": "## \\\\ ##\n() 00 ~~\n## [] //",
   "archivedAt": null,
-  "dateKey": "2026-07-15",
-  "publishedAt": "2026-07-15T10:15:04.031Z"
+  "dateKey": "2026-07-16",
+  "publishedAt": "2026-07-16T10:20:42.994Z"
 };
