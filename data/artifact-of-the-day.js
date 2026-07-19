@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-07-18",
-  "name": "Unauthorized Notification Harp",
-  "category": "Ceremonial clutter",
-  "vibe": "Warm absurdity",
-  "description": "A warm absurdity ceremonial clutter that relabels clutter as if it had a curator until you accidentally start believing in its workflow. It is usually found behind a very confident desktop shortcut.",
+  "id": "daily-2026-07-19",
+  "name": "Low-Budget Mood Spreadsheet",
+  "category": "Tiny machine",
+  "vibe": "Curated nonsense",
+  "description": "A curated nonsense tiny machine that converts unread pings into decorative confidence until someone mistakes it for a serious tool. It is usually found between two unfinished side projects.",
   "threat": "Mildly destabilizing",
   "usefulness": "Strangely practical",
-  "habitat": "behind a very confident desktop shortcut",
+  "habitat": "between two unfinished side projects",
   "ritual": "Whisper a filename and refresh",
-  "sigil": ":: ## []\n~~ 00 <>\n<> ++ []",
+  "sigil": "<> <> ++\n() 00 ##\n// \\\\ \\\\",
   "archivedAt": null,
-  "dateKey": "2026-07-18",
-  "publishedAt": "2026-07-18T09:44:19.398Z"
+  "dateKey": "2026-07-19",
+  "publishedAt": "2026-07-19T10:01:53.559Z"
 };
