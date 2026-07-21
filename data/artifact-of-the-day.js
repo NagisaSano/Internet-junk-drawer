@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-07-20",
-  "name": "Museum-Grade Wi-Fi Totem",
-  "category": "Tiny machine",
-  "vibe": "Warm absurdity",
-  "description": "A warm absurdity tiny machine that relabels clutter as if it had a curator until someone mistakes it for a serious tool. It is usually found under the glow of a late-night monitor.",
+  "id": "daily-2026-07-21",
+  "name": "Portable Desktop Weather System",
+  "category": "Office folklore",
+  "vibe": "Curated nonsense",
+  "description": "A curated nonsense office folklore that makes the desktop feel 14% more haunted in a useful way until someone mistakes it for a serious tool. It is usually found under the glow of a late-night monitor.",
   "threat": "Questionably legal in spirit",
-  "usefulness": "Useful under moonlight",
+  "usefulness": "Suspiciously efficient",
   "habitat": "under the glow of a late-night monitor",
   "ritual": "Double-click at dusk",
-  "sigil": "## {} ()\n[] 00 <>\n<> ~~ \\\\",
+  "sigil": "## {} ~~\n:: 00 ##\n<> // ++",
   "archivedAt": null,
-  "dateKey": "2026-07-20",
-  "publishedAt": "2026-07-20T11:12:14.965Z"
+  "dateKey": "2026-07-21",
+  "publishedAt": "2026-07-21T10:33:13.051Z"
 };
