@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-07-22",
-  "name": "Emergency Tab Fossil",
-  "category": "Tiny machine",
-  "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy tiny machine that converts unread pings into decorative confidence until you accidentally start believing in its workflow. It is usually found inside shared folders nobody owns.",
-  "threat": "Safe for office folklore",
-  "usefulness": "Mostly ceremonial",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Whisper a filename and refresh",
-  "sigil": "() <> ::\n\\\\ 00 ()\n() () ##",
+  "id": "daily-2026-07-23",
+  "name": "Polite Side Quest Engine",
+  "category": "Ceremonial clutter",
+  "vibe": "Low-stakes prophecy",
+  "description": "A low-stakes prophecy ceremonial clutter that turns ordinary files into suspiciously meaningful relics until someone mistakes it for a serious tool. It is usually found under the glow of a late-night monitor.",
+  "threat": "Harmless if respected",
+  "usefulness": "Strangely practical",
+  "habitat": "under the glow of a late-night monitor",
+  "ritual": "Spin once before making plans",
+  "sigil": "++ <> ++\n:: 00 ()\n<> ## ~~",
   "archivedAt": null,
-  "dateKey": "2026-07-22",
-  "publishedAt": "2026-07-22T10:33:39.893Z"
+  "dateKey": "2026-07-23",
+  "publishedAt": "2026-07-23T10:34:19.098Z"
 };
