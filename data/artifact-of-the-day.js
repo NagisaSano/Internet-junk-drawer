@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-07-23",
-  "name": "Polite Side Quest Engine",
-  "category": "Ceremonial clutter",
-  "vibe": "Low-stakes prophecy",
-  "description": "A low-stakes prophecy ceremonial clutter that turns ordinary files into suspiciously meaningful relics until someone mistakes it for a serious tool. It is usually found under the glow of a late-night monitor.",
-  "threat": "Harmless if respected",
-  "usefulness": "Strangely practical",
-  "habitat": "under the glow of a late-night monitor",
-  "ritual": "Spin once before making plans",
-  "sigil": "++ <> ++\n:: 00 ()\n<> ## ~~",
+  "id": "daily-2026-07-24",
+  "name": "Biodegradable Wi-Fi Totem",
+  "category": "Office folklore",
+  "vibe": "Curated nonsense",
+  "description": "A curated nonsense office folklore that converts unread pings into decorative confidence until someone mistakes it for a serious tool. It is usually found near forgotten tabs.",
+  "threat": "Mildly destabilizing",
+  "usefulness": "Suspiciously efficient",
+  "habitat": "near forgotten tabs",
+  "ritual": "Offer it one broken bookmark",
+  "sigil": "// \\\\ ##\n~~ 00 ~~\n:: () \\\\",
   "archivedAt": null,
-  "dateKey": "2026-07-23",
-  "publishedAt": "2026-07-23T10:34:19.098Z"
+  "dateKey": "2026-07-24",
+  "publishedAt": "2026-07-24T10:28:05.530Z"
 };
