@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-07-29",
-  "name": "Caffeinated Wi-Fi Totem",
-  "category": "Soft threat",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace soft threat that adds ceremonial weight to tiny bad ideas until someone mistakes it for a serious tool. It is usually found next to screenshots with no context.",
-  "threat": "Decorative menace",
-  "usefulness": "Excellent for morale",
-  "habitat": "next to screenshots with no context",
-  "ritual": "Spin once before making plans",
-  "sigil": "{} <> <>\n[] 00 []\n[] ++ //",
+  "id": "daily-2026-07-30",
+  "name": "Invisible JPEG Museum",
+  "category": "Tiny machine",
+  "vibe": "Warm absurdity",
+  "description": "A warm absurdity tiny machine that relabels clutter as if it had a curator until the repo gains one more unexplained feature. It is usually found near forgotten tabs.",
+  "threat": "Questionably legal in spirit",
+  "usefulness": "Suspiciously efficient",
+  "habitat": "near forgotten tabs",
+  "ritual": "Ask nothing from it directly",
+  "sigil": "<> () ++\n## 00 ()\n{} \\\\ //",
   "archivedAt": null,
-  "dateKey": "2026-07-29",
-  "publishedAt": "2026-07-29T10:48:12.145Z"
+  "dateKey": "2026-07-30",
+  "publishedAt": "2026-07-30T10:33:31.262Z"
 };
