@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-08-02",
-  "name": "Pocket-Sized Portable Ritual",
-  "category": "Domestic myth",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace domestic myth that makes procrastination feel like archival practice until a stranger assumes there is a deeper system. It is usually found behind a very confident desktop shortcut.",
+  "id": "daily-2026-08-03",
+  "name": "Overengineered Mood Spreadsheet",
+  "category": "Tiny machine",
+  "vibe": "Glorified side quest",
+  "description": "A glorified side quest tiny machine that adds ceremonial weight to tiny bad ideas until nobody can remember why it is charming, only that it is. It is usually found near forgotten tabs.",
   "threat": "Decorative menace",
-  "usefulness": "Suspiciously efficient",
-  "habitat": "behind a very confident desktop shortcut",
-  "ritual": "Ask nothing from it directly",
-  "sigil": "~~ {} []\n// 00 []\n## {} <>",
+  "usefulness": "Strangely practical",
+  "habitat": "near forgotten tabs",
+  "ritual": "Launch only after coffee",
+  "sigil": "++ [] ()\n## 00 ()\n~~ {} ()",
   "archivedAt": null,
-  "dateKey": "2026-08-02",
-  "publishedAt": "2026-08-02T10:07:10.645Z"
+  "dateKey": "2026-08-03",
+  "publishedAt": "2026-08-03T11:43:28.875Z"
 };
