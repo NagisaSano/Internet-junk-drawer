@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-08-03",
-  "name": "Overengineered Mood Spreadsheet",
-  "category": "Tiny machine",
-  "vibe": "Glorified side quest",
-  "description": "A glorified side quest tiny machine that adds ceremonial weight to tiny bad ideas until nobody can remember why it is charming, only that it is. It is usually found near forgotten tabs.",
+  "id": "daily-2026-08-04",
+  "name": "Unauthorized Portable Ritual",
+  "category": "Ceremonial clutter",
+  "vibe": "Low-stakes prophecy",
+  "description": "A low-stakes prophecy ceremonial clutter that relabels clutter as if it had a curator until someone mistakes it for a serious tool. It is usually found next to screenshots with no context.",
   "threat": "Decorative menace",
-  "usefulness": "Strangely practical",
-  "habitat": "near forgotten tabs",
-  "ritual": "Launch only after coffee",
-  "sigil": "++ [] ()\n## 00 ()\n~~ {} ()",
+  "usefulness": "Mostly ceremonial",
+  "habitat": "next to screenshots with no context",
+  "ritual": "Double-click at dusk",
+  "sigil": "[] ++ {}\n## 00 ()\n() <> {}",
   "archivedAt": null,
-  "dateKey": "2026-08-03",
-  "publishedAt": "2026-08-03T11:43:28.875Z"
+  "dateKey": "2026-08-04",
+  "publishedAt": "2026-08-04T10:49:25.325Z"
 };
