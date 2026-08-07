@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-08-06",
-  "name": "Overengineered Tab Fossil",
-  "category": "Domestic myth",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace domestic myth that adds ceremonial weight to tiny bad ideas until someone mistakes it for a serious tool. It is usually found inside shared folders nobody owns.",
-  "threat": "Decorative menace",
-  "usefulness": "Excellent for morale",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Spin once before making plans",
-  "sigil": ":: :: []\n~~ 00 ##\n{} <> []",
+  "id": "daily-2026-08-07",
+  "name": "Polite Mood Spreadsheet",
+  "category": "Ceremonial clutter",
+  "vibe": "Warm absurdity",
+  "description": "A warm absurdity ceremonial clutter that makes the desktop feel 14% more haunted in a useful way until the repo gains one more unexplained feature. It is usually found near forgotten tabs.",
+  "threat": "Harmless if respected",
+  "usefulness": "Strangely practical",
+  "habitat": "near forgotten tabs",
+  "ritual": "Ask nothing from it directly",
+  "sigil": "{} // \\\\\n// 00 {}\n{} [] \\\\",
   "archivedAt": null,
-  "dateKey": "2026-08-06",
-  "publishedAt": "2026-08-06T10:48:25.362Z"
+  "dateKey": "2026-08-07",
+  "publishedAt": "2026-08-07T09:14:59.262Z"
 };
