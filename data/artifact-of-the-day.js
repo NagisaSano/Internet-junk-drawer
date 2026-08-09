@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-08-08",
-  "name": "Low-Budget Tab Fossil",
+  "id": "daily-2026-08-09",
+  "name": "Emergency Mood Spreadsheet",
   "category": "Domestic myth",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace domestic myth that adds ceremonial weight to tiny bad ideas until a stranger assumes there is a deeper system. It is usually found next to screenshots with no context.",
-  "threat": "Decorative menace",
-  "usefulness": "Excellent for morale",
-  "habitat": "next to screenshots with no context",
-  "ritual": "Double-click at dusk",
-  "sigil": "\\\\ ~~ ++\n() 00 ::\n\\\\ // <>",
+  "vibe": "Warm absurdity",
+  "description": "A warm absurdity domestic myth that adds ceremonial weight to tiny bad ideas until the repo gains one more unexplained feature. It is usually found behind a very confident desktop shortcut.",
+  "threat": "Harmless if respected",
+  "usefulness": "Mostly ceremonial",
+  "habitat": "behind a very confident desktop shortcut",
+  "ritual": "Spin once before making plans",
+  "sigil": "<> ++ \\\\\n() 00 <>\n// ++ ()",
   "archivedAt": null,
-  "dateKey": "2026-08-08",
-  "publishedAt": "2026-08-08T08:59:45.107Z"
+  "dateKey": "2026-08-09",
+  "publishedAt": "2026-08-09T09:01:43.148Z"
 };
