@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-08-10",
-  "name": "Low-Budget Cursor Oracle",
-  "category": "Domestic myth",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace domestic myth that turns ordinary files into suspiciously meaningful relics until someone mistakes it for a serious tool. It is usually found next to screenshots with no context.",
+  "id": "daily-2026-08-11",
+  "name": "Overengineered Wi-Fi Totem",
+  "category": "Tiny machine",
+  "vibe": "Glorified side quest",
+  "description": "A glorified side quest tiny machine that turns ordinary files into suspiciously meaningful relics until the room becomes emotionally better organized. It is usually found under the glow of a late-night monitor.",
   "threat": "Questionably legal in spirit",
-  "usefulness": "Useful under moonlight",
-  "habitat": "next to screenshots with no context",
-  "ritual": "Double-click at dusk",
-  "sigil": "// ++ {}\n{} 00 ++\n() ## ~~",
+  "usefulness": "Excellent for morale",
+  "habitat": "under the glow of a late-night monitor",
+  "ritual": "Offer it one broken bookmark",
+  "sigil": "() // {}\n++ 00 <>\n\\\\ () ++",
   "archivedAt": null,
-  "dateKey": "2026-08-10",
-  "publishedAt": "2026-08-10T09:47:12.889Z"
+  "dateKey": "2026-08-11",
+  "publishedAt": "2026-08-11T09:13:05.355Z"
 };
