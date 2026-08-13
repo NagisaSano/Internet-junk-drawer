@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-08-12",
-  "name": "Suburban Mood Spreadsheet",
-  "category": "Office folklore",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace office folklore that turns ordinary files into suspiciously meaningful relics until the repo gains one more unexplained feature. It is usually found inside shared folders nobody owns.",
-  "threat": "Decorative menace",
-  "usefulness": "Strangely practical",
+  "id": "daily-2026-08-13",
+  "name": "Overengineered JPEG Museum",
+  "category": "Digital keepsake",
+  "vibe": "Warm absurdity",
+  "description": "A warm absurdity digital keepsake that adds ceremonial weight to tiny bad ideas until a stranger assumes there is a deeper system. It is usually found inside shared folders nobody owns.",
+  "threat": "Safe for office folklore",
+  "usefulness": "Suspiciously efficient",
   "habitat": "inside shared folders nobody owns",
-  "ritual": "Ask nothing from it directly",
-  "sigil": "~~ \\\\ ::\n[] 00 \\\\\n() ## ~~",
+  "ritual": "Launch only after coffee",
+  "sigil": "++ <> ##\n() 00 ()\n\\\\ ++ \\\\",
   "archivedAt": null,
-  "dateKey": "2026-08-12",
-  "publishedAt": "2026-08-12T09:31:23.504Z"
+  "dateKey": "2026-08-13",
+  "publishedAt": "2026-08-13T09:32:48.444Z"
 };
