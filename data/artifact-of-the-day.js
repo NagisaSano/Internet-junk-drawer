@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-08-17",
-  "name": "Overengineered Desktop Weather System",
-  "category": "Office folklore",
-  "vibe": "Curated nonsense",
-  "description": "A curated nonsense office folklore that relabels clutter as if it had a curator until nobody can remember why it is charming, only that it is. It is usually found between two unfinished side projects.",
-  "threat": "Questionably legal in spirit",
-  "usefulness": "Strangely practical",
-  "habitat": "between two unfinished side projects",
-  "ritual": "Double-click at dusk",
-  "sigil": "++ // //\n{} 00 <>\n<> :: ()",
+  "id": "daily-2026-08-18",
+  "name": "Overengineered Tab Fossil",
+  "category": "Browser wildlife",
+  "vibe": "Warm absurdity",
+  "description": "A warm absurdity browser wildlife that relabels clutter as if it had a curator until nobody can remember why it is charming, only that it is. It is usually found under the glow of a late-night monitor.",
+  "threat": "Decorative menace",
+  "usefulness": "Suspiciously efficient",
+  "habitat": "under the glow of a late-night monitor",
+  "ritual": "Launch only after coffee",
+  "sigil": "\\\\ \\\\ {}\n++ 00 //\n[] ## \\\\",
   "archivedAt": null,
-  "dateKey": "2026-08-17",
-  "publishedAt": "2026-08-17T09:00:12.335Z"
+  "dateKey": "2026-08-18",
+  "publishedAt": "2026-08-18T08:53:12.091Z"
 };
