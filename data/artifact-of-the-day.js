@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-08-18",
-  "name": "Overengineered Tab Fossil",
-  "category": "Browser wildlife",
-  "vibe": "Warm absurdity",
-  "description": "A warm absurdity browser wildlife that relabels clutter as if it had a curator until nobody can remember why it is charming, only that it is. It is usually found under the glow of a late-night monitor.",
-  "threat": "Decorative menace",
-  "usefulness": "Suspiciously efficient",
-  "habitat": "under the glow of a late-night monitor",
-  "ritual": "Launch only after coffee",
-  "sigil": "\\\\ \\\\ {}\n++ 00 //\n[] ## \\\\",
+  "id": "daily-2026-08-19",
+  "name": "Ceremonial Portable Ritual",
+  "category": "Digital keepsake",
+  "vibe": "Curated nonsense",
+  "description": "A curated nonsense digital keepsake that turns ordinary files into suspiciously meaningful relics until the room becomes emotionally better organized. It is usually found inside shared folders nobody owns.",
+  "threat": "Mildly destabilizing",
+  "usefulness": "Mostly ceremonial",
+  "habitat": "inside shared folders nobody owns",
+  "ritual": "Double-click at dusk",
+  "sigil": "## ~~ <>\n:: 00 ~~\n{} () []",
   "archivedAt": null,
-  "dateKey": "2026-08-18",
-  "publishedAt": "2026-08-18T08:53:12.091Z"
+  "dateKey": "2026-08-19",
+  "publishedAt": "2026-08-19T08:54:01.601Z"
 };
