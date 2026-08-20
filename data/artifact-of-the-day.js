@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-08-19",
-  "name": "Ceremonial Portable Ritual",
-  "category": "Digital keepsake",
+  "id": "daily-2026-08-20",
+  "name": "Pocket-Sized Wi-Fi Totem",
+  "category": "Soft threat",
   "vibe": "Curated nonsense",
-  "description": "A curated nonsense digital keepsake that turns ordinary files into suspiciously meaningful relics until the room becomes emotionally better organized. It is usually found inside shared folders nobody owns.",
-  "threat": "Mildly destabilizing",
-  "usefulness": "Mostly ceremonial",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Double-click at dusk",
-  "sigil": "## ~~ <>\n:: 00 ~~\n{} () []",
+  "description": "A curated nonsense soft threat that converts unread pings into decorative confidence until nobody can remember why it is charming, only that it is. It is usually found behind a very confident desktop shortcut.",
+  "threat": "Questionably legal in spirit",
+  "usefulness": "Suspiciously efficient",
+  "habitat": "behind a very confident desktop shortcut",
+  "ritual": "Launch only after coffee",
+  "sigil": "() ++ {}\n{} 00 ()\n<> ## //",
   "archivedAt": null,
-  "dateKey": "2026-08-19",
-  "publishedAt": "2026-08-19T08:54:01.601Z"
+  "dateKey": "2026-08-20",
+  "publishedAt": "2026-08-20T08:56:06.097Z"
 };
