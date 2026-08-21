@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-08-20",
-  "name": "Pocket-Sized Wi-Fi Totem",
-  "category": "Soft threat",
-  "vibe": "Curated nonsense",
-  "description": "A curated nonsense soft threat that converts unread pings into decorative confidence until nobody can remember why it is charming, only that it is. It is usually found behind a very confident desktop shortcut.",
+  "id": "daily-2026-08-21",
+  "name": "Unauthorized Desktop Weather System",
+  "category": "Digital keepsake",
+  "vibe": "Gentle menace",
+  "description": "A gentle menace digital keepsake that converts unread pings into decorative confidence until someone mistakes it for a serious tool. It is usually found inside shared folders nobody owns.",
   "threat": "Questionably legal in spirit",
-  "usefulness": "Suspiciously efficient",
-  "habitat": "behind a very confident desktop shortcut",
-  "ritual": "Launch only after coffee",
-  "sigil": "() ++ {}\n{} 00 ()\n<> ## //",
+  "usefulness": "Useful under moonlight",
+  "habitat": "inside shared folders nobody owns",
+  "ritual": "Double-click at dusk",
+  "sigil": "<> :: \\\\\n{} 00 ++\n\\\\ <> //",
   "archivedAt": null,
-  "dateKey": "2026-08-20",
-  "publishedAt": "2026-08-20T08:56:06.097Z"
+  "dateKey": "2026-08-21",
+  "publishedAt": "2026-08-21T08:57:46.363Z"
 };
