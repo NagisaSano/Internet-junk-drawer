@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-08-22",
-  "name": "Unauthorized Side Quest Engine",
-  "category": "Digital keepsake",
+  "id": "daily-2026-08-23",
+  "name": "Pocket-Sized Side Quest Engine",
+  "category": "Soft threat",
   "vibe": "Warm absurdity",
-  "description": "A warm absurdity digital keepsake that adds ceremonial weight to tiny bad ideas until you accidentally start believing in its workflow. It is usually found under the glow of a late-night monitor.",
-  "threat": "Decorative menace",
+  "description": "A warm absurdity soft threat that turns ordinary files into suspiciously meaningful relics until a stranger assumes there is a deeper system. It is usually found behind a very confident desktop shortcut.",
+  "threat": "Harmless if respected",
   "usefulness": "Strangely practical",
-  "habitat": "under the glow of a late-night monitor",
-  "ritual": "Launch only after coffee",
-  "sigil": "() :: ::\n// 00 ::\n() <> ::",
+  "habitat": "behind a very confident desktop shortcut",
+  "ritual": "Ask nothing from it directly",
+  "sigil": "<> {} ::\n++ 00 ##\n## ++ []",
   "archivedAt": null,
-  "dateKey": "2026-08-22",
-  "publishedAt": "2026-08-22T08:47:09.993Z"
+  "dateKey": "2026-08-23",
+  "publishedAt": "2026-08-23T08:48:03.158Z"
 };
