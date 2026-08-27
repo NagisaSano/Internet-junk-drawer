@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-08-26",
-  "name": "Caffeinated Browser Shrine",
-  "category": "Tiny machine",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace tiny machine that makes the desktop feel 14% more haunted in a useful way until the repo gains one more unexplained feature. It is usually found behind a very confident desktop shortcut.",
-  "threat": "Safe for office folklore",
-  "usefulness": "Mostly ceremonial",
-  "habitat": "behind a very confident desktop shortcut",
-  "ritual": "Double-click at dusk",
-  "sigil": "## <> ::\n() 00 {}\n<> // \\\\",
+  "id": "daily-2026-08-27",
+  "name": "Unauthorized Notification Harp",
+  "category": "Domestic myth",
+  "vibe": "Administrative whimsy",
+  "description": "An administrative whimsy domestic myth that adds ceremonial weight to tiny bad ideas until nobody can remember why it is charming, only that it is. It is usually found inside shared folders nobody owns.",
+  "threat": "Mildly destabilizing",
+  "usefulness": "Strangely practical",
+  "habitat": "inside shared folders nobody owns",
+  "ritual": "Offer it one broken bookmark",
+  "sigil": "// // \\\\\n[] 00 ++\n:: <> //",
   "archivedAt": null,
-  "dateKey": "2026-08-26",
-  "publishedAt": "2026-08-26T09:01:40.573Z"
+  "dateKey": "2026-08-27",
+  "publishedAt": "2026-08-27T19:04:15.849Z"
 };
