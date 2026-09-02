@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-09-01",
-  "name": "Low-Budget Browser Shrine",
-  "category": "Office folklore",
-  "vibe": "Curated nonsense",
-  "description": "A curated nonsense office folklore that turns ordinary files into suspiciously meaningful relics until the room becomes emotionally better organized. It is usually found near forgotten tabs.",
-  "threat": "Decorative menace",
+  "id": "daily-2026-09-02",
+  "name": "Museum-Grade JPEG Museum",
+  "category": "Domestic myth",
+  "vibe": "Administrative whimsy",
+  "description": "An administrative whimsy domestic myth that turns ordinary files into suspiciously meaningful relics until the repo gains one more unexplained feature. It is usually found under the glow of a late-night monitor.",
+  "threat": "Mildly destabilizing",
   "usefulness": "Strangely practical",
-  "habitat": "near forgotten tabs",
-  "ritual": "Double-click at dusk",
-  "sigil": "{} [] ()\n~~ 00 \\\\\n:: ~~ \\\\",
+  "habitat": "under the glow of a late-night monitor",
+  "ritual": "Offer it one broken bookmark",
+  "sigil": "++ ## //\n{} 00 {}\n\\\\ <> []",
   "archivedAt": null,
-  "dateKey": "2026-09-01",
-  "publishedAt": "2026-09-01T13:29:43.740Z"
+  "dateKey": "2026-09-02",
+  "publishedAt": "2026-09-02T12:46:07.412Z"
 };
