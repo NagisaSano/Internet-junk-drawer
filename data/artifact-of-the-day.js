@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-09-03",
-  "name": "Overengineered Cursor Oracle",
+  "id": "daily-2026-09-04",
+  "name": "Pocket-Sized JPEG Museum",
   "category": "Domestic myth",
-  "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy domestic myth that makes procrastination feel like archival practice until the repo gains one more unexplained feature. It is usually found near forgotten tabs.",
+  "vibe": "Curated nonsense",
+  "description": "A curated nonsense domestic myth that makes the desktop feel 14% more haunted in a useful way until someone mistakes it for a serious tool. It is usually found near forgotten tabs.",
   "threat": "Safe for office folklore",
-  "usefulness": "Excellent for morale",
+  "usefulness": "Suspiciously efficient",
   "habitat": "near forgotten tabs",
-  "ritual": "Whisper a filename and refresh",
-  "sigil": "<> ++ \\\\\n~~ 00 ::\n## [] ##",
+  "ritual": "Spin once before making plans",
+  "sigil": "\\\\ // ()\n() 00 []\n\\\\ {} ++",
   "archivedAt": null,
-  "dateKey": "2026-09-03",
-  "publishedAt": "2026-09-03T12:49:22.652Z"
+  "dateKey": "2026-09-04",
+  "publishedAt": "2026-09-04T12:43:08.664Z"
 };
