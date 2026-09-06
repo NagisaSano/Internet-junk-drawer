@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-09-05",
-  "name": "Caffeinated Portable Ritual",
+  "id": "daily-2026-09-06",
+  "name": "Suburban Notification Harp",
   "category": "Digital keepsake",
-  "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy digital keepsake that relabels clutter as if it had a curator until the room becomes emotionally better organized. It is usually found inside shared folders nobody owns.",
-  "threat": "Safe for office folklore",
+  "vibe": "Curated nonsense",
+  "description": "A curated nonsense digital keepsake that turns ordinary files into suspiciously meaningful relics until the repo gains one more unexplained feature. It is usually found inside shared folders nobody owns.",
+  "threat": "Questionably legal in spirit",
   "usefulness": "Suspiciously efficient",
   "habitat": "inside shared folders nobody owns",
-  "ritual": "Offer it one broken bookmark",
-  "sigil": "++ () ::\n<> 00 ~~\n++ () {}",
+  "ritual": "Launch only after coffee",
+  "sigil": "## ~~ \\\\\n~~ 00 {}\n++ {} ()",
   "archivedAt": null,
-  "dateKey": "2026-09-05",
-  "publishedAt": "2026-09-05T11:49:52.289Z"
+  "dateKey": "2026-09-06",
+  "publishedAt": "2026-09-06T12:08:26.796Z"
 };
