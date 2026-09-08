@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-09-07",
-  "name": "Caffeinated Side Quest Engine",
-  "category": "Ceremonial clutter",
-  "vibe": "Glorified side quest",
-  "description": "A glorified side quest ceremonial clutter that makes procrastination feel like archival practice until you accidentally start believing in its workflow. It is usually found under the glow of a late-night monitor.",
+  "id": "daily-2026-09-08",
+  "name": "Invisible Browser Shrine",
+  "category": "Digital keepsake",
+  "vibe": "Low-stakes prophecy",
+  "description": "A low-stakes prophecy digital keepsake that makes procrastination feel like archival practice until the repo gains one more unexplained feature. It is usually found under the glow of a late-night monitor.",
   "threat": "Mildly destabilizing",
-  "usefulness": "Strangely practical",
+  "usefulness": "Mostly ceremonial",
   "habitat": "under the glow of a late-night monitor",
-  "ritual": "Double-click at dusk",
-  "sigil": "// [] {}\n\\\\ 00 <>\n{} ++ {}",
+  "ritual": "Launch only after coffee",
+  "sigil": "## () []\n++ 00 \\\\\n\\\\ ~~ ()",
   "archivedAt": null,
-  "dateKey": "2026-09-07",
-  "publishedAt": "2026-09-07T14:15:03.257Z"
+  "dateKey": "2026-09-08",
+  "publishedAt": "2026-09-08T12:52:12.255Z"
 };
