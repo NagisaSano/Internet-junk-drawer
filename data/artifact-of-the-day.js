@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-09-13",
-  "name": "Caffeinated JPEG Museum",
-  "category": "Browser wildlife",
+  "id": "daily-2026-09-14",
+  "name": "Low-Budget Side Quest Engine",
+  "category": "Tiny machine",
   "vibe": "Gentle menace",
-  "description": "A gentle menace browser wildlife that adds ceremonial weight to tiny bad ideas until nobody can remember why it is charming, only that it is. It is usually found between two unfinished side projects.",
-  "threat": "Safe for office folklore",
-  "usefulness": "Suspiciously efficient",
-  "habitat": "between two unfinished side projects",
+  "description": "A gentle menace tiny machine that makes the desktop feel 14% more haunted in a useful way until someone mistakes it for a serious tool. It is usually found near forgotten tabs.",
+  "threat": "Questionably legal in spirit",
+  "usefulness": "Strangely practical",
+  "habitat": "near forgotten tabs",
   "ritual": "Spin once before making plans",
-  "sigil": "\\\\ () ##\n[] 00 ::\n() ++ ::",
+  "sigil": "~~ {} []\n{} 00 ::\n:: // ++",
   "archivedAt": null,
-  "dateKey": "2026-09-13",
-  "publishedAt": "2026-09-13T13:18:26.872Z"
+  "dateKey": "2026-09-14",
+  "publishedAt": "2026-09-14T15:00:55.017Z"
 };
