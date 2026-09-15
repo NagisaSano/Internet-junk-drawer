@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-09-14",
-  "name": "Low-Budget Side Quest Engine",
-  "category": "Tiny machine",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace tiny machine that makes the desktop feel 14% more haunted in a useful way until someone mistakes it for a serious tool. It is usually found near forgotten tabs.",
-  "threat": "Questionably legal in spirit",
-  "usefulness": "Strangely practical",
-  "habitat": "near forgotten tabs",
-  "ritual": "Spin once before making plans",
-  "sigil": "~~ {} []\n{} 00 ::\n:: // ++",
+  "id": "daily-2026-09-15",
+  "name": "Museum-Grade Deadline Mirage",
+  "category": "Domestic myth",
+  "vibe": "Curated nonsense",
+  "description": "A curated nonsense domestic myth that relabels clutter as if it had a curator until a stranger assumes there is a deeper system. It is usually found between two unfinished side projects.",
+  "threat": "Decorative menace",
+  "usefulness": "Excellent for morale",
+  "habitat": "between two unfinished side projects",
+  "ritual": "Offer it one broken bookmark",
+  "sigil": "<> ## //\n~~ 00 ~~\n:: ## \\\\",
   "archivedAt": null,
-  "dateKey": "2026-09-14",
-  "publishedAt": "2026-09-14T15:00:55.017Z"
+  "dateKey": "2026-09-15",
+  "publishedAt": "2026-09-15T13:33:11.927Z"
 };
