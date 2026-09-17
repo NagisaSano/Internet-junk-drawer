@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-09-16",
-  "name": "Low-Budget Deadline Mirage",
-  "category": "Tiny machine",
-  "vibe": "Curated nonsense",
-  "description": "A curated nonsense tiny machine that makes procrastination feel like archival practice until the room becomes emotionally better organized. It is usually found inside shared folders nobody owns.",
-  "threat": "Mildly destabilizing",
+  "id": "daily-2026-09-17",
+  "name": "Emergency Deadline Mirage",
+  "category": "Office folklore",
+  "vibe": "Warm absurdity",
+  "description": "A warm absurdity office folklore that relabels clutter as if it had a curator until the room becomes emotionally better organized. It is usually found behind a very confident desktop shortcut.",
+  "threat": "Questionably legal in spirit",
   "usefulness": "Suspiciously efficient",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Ask nothing from it directly",
-  "sigil": "\\\\ <> //\n:: 00 ::\n:: ~~ ##",
+  "habitat": "behind a very confident desktop shortcut",
+  "ritual": "Spin once before making plans",
+  "sigil": "## <> \\\\\n<> 00 //\n~~ // {}",
   "archivedAt": null,
-  "dateKey": "2026-09-16",
-  "publishedAt": "2026-09-16T13:30:02.389Z"
+  "dateKey": "2026-09-17",
+  "publishedAt": "2026-09-17T13:27:24.742Z"
 };
