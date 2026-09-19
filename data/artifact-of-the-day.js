@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-09-18",
-  "name": "Solar-Powered Deadline Mirage",
-  "category": "Ceremonial clutter",
-  "vibe": "Low-stakes prophecy",
-  "description": "A low-stakes prophecy ceremonial clutter that converts unread pings into decorative confidence until the room becomes emotionally better organized. It is usually found under the glow of a late-night monitor.",
-  "threat": "Questionably legal in spirit",
-  "usefulness": "Useful under moonlight",
-  "habitat": "under the glow of a late-night monitor",
-  "ritual": "Spin once before making plans",
-  "sigil": "## :: ::\n\\\\ 00 //\n{} () []",
+  "id": "daily-2026-09-19",
+  "name": "Pocket-Sized Side Quest Engine",
+  "category": "Digital keepsake",
+  "vibe": "Glorified side quest",
+  "description": "A glorified side quest digital keepsake that makes the desktop feel 14% more haunted in a useful way until someone mistakes it for a serious tool. It is usually found inside shared folders nobody owns.",
+  "threat": "Decorative menace",
+  "usefulness": "Strangely practical",
+  "habitat": "inside shared folders nobody owns",
+  "ritual": "Ask nothing from it directly",
+  "sigil": "## // ~~\n<> 00 ()\n## ## ::",
   "archivedAt": null,
-  "dateKey": "2026-09-18",
-  "publishedAt": "2026-09-18T12:58:06.325Z"
+  "dateKey": "2026-09-19",
+  "publishedAt": "2026-09-19T12:29:48.971Z"
 };
