@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-09-19",
-  "name": "Pocket-Sized Side Quest Engine",
-  "category": "Digital keepsake",
-  "vibe": "Glorified side quest",
-  "description": "A glorified side quest digital keepsake that makes the desktop feel 14% more haunted in a useful way until someone mistakes it for a serious tool. It is usually found inside shared folders nobody owns.",
-  "threat": "Decorative menace",
+  "id": "daily-2026-09-20",
+  "name": "Ceremonial Cursor Oracle",
+  "category": "Ceremonial clutter",
+  "vibe": "Warm absurdity",
+  "description": "A warm absurdity ceremonial clutter that makes procrastination feel like archival practice until nobody can remember why it is charming, only that it is. It is usually found under the glow of a late-night monitor.",
+  "threat": "Harmless if respected",
   "usefulness": "Strangely practical",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Ask nothing from it directly",
-  "sigil": "## // ~~\n<> 00 ()\n## ## ::",
+  "habitat": "under the glow of a late-night monitor",
+  "ritual": "Launch only after coffee",
+  "sigil": "++ ~~ \\\\\n## 00 <>\n\\\\ [] ~~",
   "archivedAt": null,
-  "dateKey": "2026-09-19",
-  "publishedAt": "2026-09-19T12:29:48.971Z"
+  "dateKey": "2026-09-20",
+  "publishedAt": "2026-09-20T13:02:51.091Z"
 };
