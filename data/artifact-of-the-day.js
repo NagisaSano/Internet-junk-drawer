@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-09-23",
-  "name": "Pocket-Sized Deadline Mirage",
-  "category": "Ceremonial clutter",
-  "vibe": "Warm absurdity",
-  "description": "A warm absurdity ceremonial clutter that turns ordinary files into suspiciously meaningful relics until nobody can remember why it is charming, only that it is. It is usually found between two unfinished side projects.",
-  "threat": "Questionably legal in spirit",
-  "usefulness": "Useful under moonlight",
-  "habitat": "between two unfinished side projects",
+  "id": "daily-2026-09-24",
+  "name": "Invisible Portable Ritual",
+  "category": "Digital keepsake",
+  "vibe": "Glorified side quest",
+  "description": "A glorified side quest digital keepsake that adds ceremonial weight to tiny bad ideas until someone mistakes it for a serious tool. It is usually found under the glow of a late-night monitor.",
+  "threat": "Decorative menace",
+  "usefulness": "Excellent for morale",
+  "habitat": "under the glow of a late-night monitor",
   "ritual": "Ask nothing from it directly",
-  "sigil": "~~ ~~ ~~\n<> 00 ++\n++ // <>",
+  "sigil": "## () []\n:: 00 ++\n++ () //",
   "archivedAt": null,
-  "dateKey": "2026-09-23",
-  "publishedAt": "2026-09-23T13:38:26.805Z"
+  "dateKey": "2026-09-24",
+  "publishedAt": "2026-09-24T13:33:00.474Z"
 };
