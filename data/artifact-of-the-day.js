@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-09-24",
-  "name": "Invisible Portable Ritual",
-  "category": "Digital keepsake",
-  "vibe": "Glorified side quest",
-  "description": "A glorified side quest digital keepsake that adds ceremonial weight to tiny bad ideas until someone mistakes it for a serious tool. It is usually found under the glow of a late-night monitor.",
-  "threat": "Decorative menace",
-  "usefulness": "Excellent for morale",
-  "habitat": "under the glow of a late-night monitor",
+  "id": "daily-2026-09-25",
+  "name": "Overengineered Inbox Goblin",
+  "category": "Soft threat",
+  "vibe": "Administrative whimsy",
+  "description": "An administrative whimsy soft threat that adds ceremonial weight to tiny bad ideas until you accidentally start believing in its workflow. It is usually found next to screenshots with no context.",
+  "threat": "Safe for office folklore",
+  "usefulness": "Useful under moonlight",
+  "habitat": "next to screenshots with no context",
   "ritual": "Ask nothing from it directly",
-  "sigil": "## () []\n:: 00 ++\n++ () //",
+  "sigil": "<> ++ ()\n~~ 00 {}\n// ++ \\\\",
   "archivedAt": null,
-  "dateKey": "2026-09-24",
-  "publishedAt": "2026-09-24T13:33:00.474Z"
+  "dateKey": "2026-09-25",
+  "publishedAt": "2026-09-25T13:47:33.935Z"
 };
