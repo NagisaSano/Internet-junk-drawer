@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-09-25",
-  "name": "Overengineered Inbox Goblin",
-  "category": "Soft threat",
-  "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy soft threat that adds ceremonial weight to tiny bad ideas until you accidentally start believing in its workflow. It is usually found next to screenshots with no context.",
-  "threat": "Safe for office folklore",
+  "id": "daily-2026-09-26",
+  "name": "Caffeinated Notification Harp",
+  "category": "Browser wildlife",
+  "vibe": "Glorified side quest",
+  "description": "A glorified side quest browser wildlife that converts unread pings into decorative confidence until the room becomes emotionally better organized. It is usually found under the glow of a late-night monitor.",
+  "threat": "Questionably legal in spirit",
   "usefulness": "Useful under moonlight",
-  "habitat": "next to screenshots with no context",
-  "ritual": "Ask nothing from it directly",
-  "sigil": "<> ++ ()\n~~ 00 {}\n// ++ \\\\",
+  "habitat": "under the glow of a late-night monitor",
+  "ritual": "Launch only after coffee",
+  "sigil": "## ++ //\n++ 00 ::\n~~ {} ()",
   "archivedAt": null,
-  "dateKey": "2026-09-25",
-  "publishedAt": "2026-09-25T13:47:33.935Z"
+  "dateKey": "2026-09-26",
+  "publishedAt": "2026-09-26T13:05:22.545Z"
 };
