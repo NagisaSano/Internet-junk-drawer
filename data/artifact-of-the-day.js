@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-09-28",
-  "name": "Ceremonial Cursor Oracle",
-  "category": "Office folklore",
-  "vibe": "Warm absurdity",
-  "description": "A warm absurdity office folklore that converts unread pings into decorative confidence until you accidentally start believing in its workflow. It is usually found between two unfinished side projects.",
-  "threat": "Decorative menace",
-  "usefulness": "Mostly ceremonial",
-  "habitat": "between two unfinished side projects",
-  "ritual": "Spin once before making plans",
-  "sigil": "{} ++ \\\\\n++ 00 ##\n[] \\\\ {}",
+  "id": "daily-2026-09-29",
+  "name": "Solar-Powered Deadline Mirage",
+  "category": "Browser wildlife",
+  "vibe": "Low-stakes prophecy",
+  "description": "A low-stakes prophecy browser wildlife that converts unread pings into decorative confidence until the repo gains one more unexplained feature. It is usually found under the glow of a late-night monitor.",
+  "threat": "Questionably legal in spirit",
+  "usefulness": "Strangely practical",
+  "habitat": "under the glow of a late-night monitor",
+  "ritual": "Offer it one broken bookmark",
+  "sigil": "## ++ ::\n// 00 //\n[] ~~ ::",
   "archivedAt": null,
-  "dateKey": "2026-09-28",
-  "publishedAt": "2026-09-28T16:45:09.539Z"
+  "dateKey": "2026-09-29",
+  "publishedAt": "2026-09-29T14:50:45.291Z"
 };
