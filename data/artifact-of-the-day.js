@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-09-30",
-  "name": "Ceremonial Browser Shrine",
-  "category": "Ceremonial clutter",
-  "vibe": "Low-stakes prophecy",
-  "description": "A low-stakes prophecy ceremonial clutter that converts unread pings into decorative confidence until the room becomes emotionally better organized. It is usually found inside shared folders nobody owns.",
-  "threat": "Harmless if respected",
+  "id": "daily-2026-10-01",
+  "name": "Biodegradable Browser Shrine",
+  "category": "Tiny machine",
+  "vibe": "Glorified side quest",
+  "description": "A glorified side quest tiny machine that relabels clutter as if it had a curator until the repo gains one more unexplained feature. It is usually found next to screenshots with no context.",
+  "threat": "Questionably legal in spirit",
   "usefulness": "Excellent for morale",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Launch only after coffee",
-  "sigil": ":: [] {}\n[] 00 ~~\n~~ ## {}",
+  "habitat": "next to screenshots with no context",
+  "ritual": "Double-click at dusk",
+  "sigil": ":: [] []\n// 00 ()\n// ## //",
   "archivedAt": null,
-  "dateKey": "2026-09-30",
-  "publishedAt": "2026-09-30T14:55:21.967Z"
+  "dateKey": "2026-10-01",
+  "publishedAt": "2026-10-01T15:27:03.866Z"
 };
