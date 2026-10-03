@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-10-02",
-  "name": "Emergency Browser Shrine",
-  "category": "Digital keepsake",
-  "vibe": "Glorified side quest",
-  "description": "A glorified side quest digital keepsake that converts unread pings into decorative confidence until you accidentally start believing in its workflow. It is usually found near forgotten tabs.",
+  "id": "daily-2026-10-03",
+  "name": "Ceremonial Mood Spreadsheet",
+  "category": "Soft threat",
+  "vibe": "Curated nonsense",
+  "description": "A curated nonsense soft threat that turns ordinary files into suspiciously meaningful relics until you accidentally start believing in its workflow. It is usually found behind a very confident desktop shortcut.",
   "threat": "Harmless if respected",
-  "usefulness": "Useful under moonlight",
-  "habitat": "near forgotten tabs",
-  "ritual": "Launch only after coffee",
-  "sigil": "() <> ##\n<> 00 ()\n++ ## []",
+  "usefulness": "Suspiciously efficient",
+  "habitat": "behind a very confident desktop shortcut",
+  "ritual": "Ask nothing from it directly",
+  "sigil": "// ++ ~~\n~~ 00 []\n\\\\ ~~ ()",
   "archivedAt": null,
-  "dateKey": "2026-10-02",
-  "publishedAt": "2026-10-02T14:44:11.028Z"
+  "dateKey": "2026-10-03",
+  "publishedAt": "2026-10-03T13:22:59.955Z"
 };
