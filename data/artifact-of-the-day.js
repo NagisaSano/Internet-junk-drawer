@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-10-04",
-  "name": "Unauthorized Browser Shrine",
-  "category": "Digital keepsake",
-  "vibe": "Low-stakes prophecy",
-  "description": "A low-stakes prophecy digital keepsake that relabels clutter as if it had a curator until someone mistakes it for a serious tool. It is usually found under the glow of a late-night monitor.",
-  "threat": "Decorative menace",
-  "usefulness": "Suspiciously efficient",
-  "habitat": "under the glow of a late-night monitor",
-  "ritual": "Offer it one broken bookmark",
-  "sigil": "++ <> \\\\\n{} 00 ++\n\\\\ {} ++",
+  "id": "daily-2026-10-05",
+  "name": "Unauthorized Side Quest Engine",
+  "category": "Ceremonial clutter",
+  "vibe": "Curated nonsense",
+  "description": "A curated nonsense ceremonial clutter that makes procrastination feel like archival practice until the room becomes emotionally better organized. It is usually found behind a very confident desktop shortcut.",
+  "threat": "Harmless if respected",
+  "usefulness": "Mostly ceremonial",
+  "habitat": "behind a very confident desktop shortcut",
+  "ritual": "Ask nothing from it directly",
+  "sigil": ":: ++ ##\n++ 00 []\n<> // []",
   "archivedAt": null,
-  "dateKey": "2026-10-04",
-  "publishedAt": "2026-10-04T14:04:49.148Z"
+  "dateKey": "2026-10-05",
+  "publishedAt": "2026-10-05T17:08:41.956Z"
 };
