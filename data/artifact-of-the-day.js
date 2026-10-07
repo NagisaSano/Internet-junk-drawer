@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-10-06",
-  "name": "Solar-Powered Portable Ritual",
-  "category": "Browser wildlife",
-  "vibe": "Glorified side quest",
-  "description": "A glorified side quest browser wildlife that converts unread pings into decorative confidence until the room becomes emotionally better organized. It is usually found inside shared folders nobody owns.",
-  "threat": "Mildly destabilizing",
-  "usefulness": "Mostly ceremonial",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Ask nothing from it directly",
-  "sigil": "() ## ##\n{} 00 ~~\n:: ++ ()",
+  "id": "daily-2026-10-07",
+  "name": "Pocket-Sized Side Quest Engine",
+  "category": "Tiny machine",
+  "vibe": "Warm absurdity",
+  "description": "A warm absurdity tiny machine that makes procrastination feel like archival practice until the room becomes emotionally better organized. It is usually found between two unfinished side projects.",
+  "threat": "Questionably legal in spirit",
+  "usefulness": "Useful under moonlight",
+  "habitat": "between two unfinished side projects",
+  "ritual": "Offer it one broken bookmark",
+  "sigil": "## () ::\n[] 00 ::\n() ## ##",
   "archivedAt": null,
-  "dateKey": "2026-10-06",
-  "publishedAt": "2026-10-06T15:12:16.845Z"
+  "dateKey": "2026-10-07",
+  "publishedAt": "2026-10-07T15:33:08.504Z"
 };
