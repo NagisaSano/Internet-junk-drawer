@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-10-07",
-  "name": "Pocket-Sized Side Quest Engine",
-  "category": "Tiny machine",
-  "vibe": "Warm absurdity",
-  "description": "A warm absurdity tiny machine that makes procrastination feel like archival practice until the room becomes emotionally better organized. It is usually found between two unfinished side projects.",
-  "threat": "Questionably legal in spirit",
+  "id": "daily-2026-10-08",
+  "name": "Emergency Deadline Mirage",
+  "category": "Office folklore",
+  "vibe": "Low-stakes prophecy",
+  "description": "A low-stakes prophecy office folklore that adds ceremonial weight to tiny bad ideas until the repo gains one more unexplained feature. It is usually found behind a very confident desktop shortcut.",
+  "threat": "Mildly destabilizing",
   "usefulness": "Useful under moonlight",
-  "habitat": "between two unfinished side projects",
+  "habitat": "behind a very confident desktop shortcut",
   "ritual": "Offer it one broken bookmark",
-  "sigil": "## () ::\n[] 00 ::\n() ## ##",
+  "sigil": "++ [] \\\\\n:: 00 //\n{} \\\\ ::",
   "archivedAt": null,
-  "dateKey": "2026-10-07",
-  "publishedAt": "2026-10-07T15:33:08.504Z"
+  "dateKey": "2026-10-08",
+  "publishedAt": "2026-10-08T15:36:49.244Z"
 };
