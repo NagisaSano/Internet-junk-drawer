@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for the Solve Discord applications.">
+  <title>Solve Discord Applications — Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0d1017;
+      --panel: #171c27;
+      --text: #f3f5fb;
+      --muted: #b7c0d5;
+      --line: #30394d;
+      --accent: #ff9e4a;
+      --accent-soft: #302318;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at top right, rgba(255, 158, 74, .16), transparent 34rem),
+        var(--bg);
+      color: var(--text);
+      font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 64px 0 80px;
+    }
+
+    h1, h2, h3 { line-height: 1.2; }
+    h1 { margin: 0 0 12px; font-size: clamp(2.1rem, 7vw, 4.4rem); }
+    h2 { margin-top: 48px; padding-top: 8px; border-top: 1px solid var(--line); }
+    h3 { margin-top: 28px; }
+    p, li { color: var(--muted); }
+    strong, a { color: var(--text); }
+    a:hover { color: var(--accent); }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-weight: 750;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .meta, .notice {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(23, 28, 39, .9);
+      padding: 18px 20px;
+    }
+
+    .notice { margin: 28px 0; border-color: #684222; background: var(--accent-soft); }
+    .app-list code { color: var(--accent); }
+    nav { display: flex; flex-wrap: wrap; gap: 10px 18px; margin: 28px 0; }
+    nav a { color: var(--accent); }
+    section[lang="fr"] { margin-top: 72px; }
+    footer { margin-top: 64px; color: var(--muted); font-size: .92rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Solve Community · Discord applications</p>
+    <h1>Privacy Policy</h1>
+    <div class="meta">
+      <strong>Effective and last updated:</strong> October 10, 2026<br>
+      <strong>Operator:</strong> the Solve community application owner, Discord username
+      <code>nagisa_sano</code>
+    </div>
+
+    <nav aria-label="Languages">
+      <a href="#english">English</a>
+      <a href="#francais">Français</a>
+    </nav>
+
+    <section id="english" lang="en">
+      <h2>1. Scope</h2>
+      <p>
+        This policy explains how the following private, community-operated Discord applications
+        process data when providing moderation, support, roleplay, whitelist, ticket, and
+        server-administration features for the Solve community:
+      </p>
+      <ul class="app-list">
+        <li>Solve・Naruto — application <code>1368647398548701356</code></li>
+        <li>Solve・Rôleplay — application <code>1392136292107681792</code></li>
+        <li>Solve・Douane — application <code>1373374958012465152</code></li>
+        <li>Solve・Admin — application <code>1378096450613018716</code></li>
+      </ul>
+
+      <h2>2. Data we process</h2>
+      <p>Depending on the application and the feature used, we may process:</p>
+      <ul>
+        <li>Discord user, guild, channel, role, message, and interaction identifiers;</li>
+        <li>guild membership and role information required for access control and role synchronization;</li>
+        <li>ticket, whitelist, interview, staff, blacklist, XP, and roleplay workflow records;</li>
+        <li>messages and attachments that a user voluntarily sends directly to Solve・Admin;</li>
+        <li>
+          message content in specifically configured operational channels used by Solve・Douane
+          for absence forwarding, staff alerts, ticket transcripts, and deterministic moderation;
+        </li>
+        <li>technical logs needed to diagnose failures and protect the applications.</li>
+      </ul>
+      <p>
+        The applications do not request account passwords, payment-card data, or private messages
+        unrelated to an interaction with the applications.
+      </p>
+
+      <h2>3. Why we use the data</h2>
+      <p>We process the minimum data needed to:</p>
+      <ul>
+        <li>synchronize authorized roles between controlled Solve servers;</li>
+        <li>detect member joins and role changes required by configured workflows;</li>
+        <li>create, route, manage, archive, and audit support or roleplay tickets;</li>
+        <li>operate whitelist, interview, absence, blacklist, and staff-management workflows;</li>
+        <li>answer users, enforce community rules, prevent abuse, and investigate operational incidents;</li>
+        <li>maintain application reliability and security.</li>
+      </ul>
+      <p>
+        We do not sell personal data, use it for advertising, or use message content to train
+        machine-learning or artificial-intelligence models.
+      </p>
+
+      <h2>4. Privileged Discord data</h2>
+      <ul>
+        <li>
+          <strong>Guild Members:</strong> used only where real-time joins, member lists, or role
+          synchronization are necessary. Solve・Admin does not request this privileged intent.
+        </li>
+        <li>
+          <strong>Message Content:</strong> used only by Solve・Douane in configured operational
+          channels. Solve・Admin receives content from direct messages sent to the application,
+          which Discord makes available without the privileged Message Content intent.
+        </li>
+        <li>
+          <strong>Presence:</strong> used only by Solve・Naruto for configured live-stream activity
+          detection. The other applications covered by this policy do not request it.
+        </li>
+      </ul>
+
+      <h2>5. Storage, recipients, and security</h2>
+      <p>
+        Data may be stored in access-controlled Discord channels, local state files or SQLite on
+        dedicated hosting, MySQL databases, and, for selected Douane workflows, restricted Google
+        Sheets. Access is limited to the application operator and authorized Solve staff whose
+        duties require it. Service providers may process data only to host or deliver these features,
+        including Discord, the infrastructure and database hosts, and Google for the relevant Sheets.
+      </p>
+      <p>
+        Network traffic uses encrypted HTTPS/TLS connections where supported. Persistent stores
+        containing Discord API data are kept on access-controlled infrastructure configured for
+        encryption at rest. Secrets and authentication credentials are not placed in public source
+        code. Temporary ticket-transcript files created by Solve・Douane are deleted immediately
+        after their transfer to the restricted Discord log channel.
+      </p>
+
+      <h2>6. Retention</h2>
+      <p>
+        Operational identifiers and workflow records are retained only while they are needed to
+        provide the configured feature, preserve ticket or moderation integrity, resolve disputes,
+        or meet security obligations. Message content processed by Solve・Douane is normally kept on
+        Discord in the relevant operational or staff-only channel; it is not used to build an
+        off-platform message archive. Temporary off-platform transcript files are removed immediately
+        after upload. Data is deleted or anonymized when it is no longer required, subject to
+        legitimate moderation, security, and legal needs.
+      </p>
+
+      <h2>7. Your choices and deletion requests</h2>
+      <p>
+        Users may request access, correction, or deletion of data associated with their Discord user
+        ID. Contact <code>nagisa_sano</code> on Discord or open a support ticket in the official
+        <a href="https://discord.gg/solve-naruto">Solve・Naruto Discord server</a>. Include the relevant
+        Discord user ID and application name so the request can be verified and located. We may retain
+        limited records where necessary for abuse prevention, community safety, dispute resolution,
+        or legal compliance.
+      </p>
+
+      <h2>8. Changes</h2>
+      <p>
+        We may update this policy when application features or data practices change. The current
+        version and its effective date will remain available at this URL.
+      </p>
+    </section>
+
+    <section id="francais" lang="fr">
+      <p class="eyebrow">Version française</p>
+      <h2>1. Champ d’application</h2>
+      <p>
+        Cette politique décrit le traitement des données par les applications Discord privées de la
+        communauté Solve : Solve・Naruto, Solve・Rôleplay, Solve・Douane et Solve・Admin, identifiées
+        ci-dessus.
+      </p>
+
+      <h2>2. Données traitées et finalités</h2>
+      <p>
+        Selon la fonctionnalité utilisée, les bots peuvent traiter des identifiants Discord
+        (utilisateur, serveur, salon, rôle, message et interaction), les rôles et l’appartenance aux
+        serveurs, des données de tickets, whitelist, entretiens, staff, blacklist, XP et workflows RP,
+        ainsi que les messages ou pièces jointes volontairement adressés à Solve・Admin. Solve・Douane
+        lit le contenu uniquement dans des salons opérationnels configurés pour les absences, alertes
+        staff, transcriptions de tickets et règles de modération déterministes.
+      </p>
+      <p>
+        Ces données servent exclusivement à fournir les fonctionnalités communautaires configurées,
+        sécuriser les serveurs, appliquer les règles et diagnostiquer les incidents. Elles ne sont ni
+        vendues, ni utilisées à des fins publicitaires, ni utilisées pour entraîner des modèles d’IA.
+      </p>
+
+      <h2>3. Stockage, accès et sécurité</h2>
+      <p>
+        Les données peuvent être conservées dans des salons Discord à accès restreint, des fichiers
+        d’état ou bases SQLite sur l’hébergement dédié, des bases MySQL et, pour certains workflows
+        Douane, des Google Sheets restreints. L’accès est limité au propriétaire des applications et
+        aux membres autorisés du staff Solve. Les communications utilisent HTTPS/TLS lorsque le service
+        le permet et les stockages persistants contenant des données de l’API Discord sont placés sur
+        une infrastructure contrôlée configurée avec chiffrement au repos. Les fichiers temporaires de
+        transcription créés par Solve・Douane sont supprimés juste après leur transfert dans le salon
+        Discord de logs restreint.
+      </p>
+
+      <h2>4. Conservation et droits</h2>
+      <p>
+        Les identifiants et données opérationnelles ne sont conservés que pendant la durée nécessaire
+        au fonctionnement, à l’intégrité des tickets et de la modération, à la sécurité ou aux
+        obligations légales. Le contenu traité par Solve・Douane reste normalement dans les salons
+        Discord concernés et ne constitue pas une archive externe des messages.
+      </p>
+      <p>
+        Pour demander l’accès, la rectification ou la suppression de données liées à votre identifiant
+        Discord, contactez <code>nagisa_sano</code> sur Discord ou ouvrez un ticket sur le
+        <a href="https://discord.gg/solve-naruto">serveur officiel Solve・Naruto</a>. Précisez votre
+        identifiant Discord et l’application concernée. Certaines traces limitées peuvent être
+        conservées lorsque la sécurité, la prévention des abus, un litige ou la loi l’exige.
+      </p>
+
+      <h2>5. Modifications</h2>
+      <p>
+        Cette politique peut évoluer avec les fonctionnalités ou pratiques de données. La version en
+        vigueur et sa date resteront publiées à cette adresse.
+      </p>
+    </section>
+
+    <footer>
+      <a href="./">Return to the main site</a> · Public policy for the Solve Discord applications
+    </footer>
+  </main>
+</body>
+</html>

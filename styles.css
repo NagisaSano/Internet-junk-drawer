@@ -658,3 +658,12 @@ button:focus-visible,
     grid-template-columns: 1fr;
   }
 }
+.legal-footer {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.legal-footer a {
+  color: inherit;
+}
