@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-10-09",
-  "name": "Museum-Grade Desktop Weather System",
-  "category": "Browser wildlife",
-  "vibe": "Curated nonsense",
-  "description": "A curated nonsense browser wildlife that turns ordinary files into suspiciously meaningful relics until a stranger assumes there is a deeper system. It is usually found behind a very confident desktop shortcut.",
+  "id": "daily-2026-10-10",
+  "name": "Unauthorized JPEG Museum",
+  "category": "Soft threat",
+  "vibe": "Glorified side quest",
+  "description": "A glorified side quest soft threat that makes the desktop feel 14% more haunted in a useful way until you accidentally start believing in its workflow. It is usually found behind a very confident desktop shortcut.",
   "threat": "Safe for office folklore",
   "usefulness": "Mostly ceremonial",
   "habitat": "behind a very confident desktop shortcut",
-  "ritual": "Whisper a filename and refresh",
-  "sigil": "\\\\ ++ ~~\n() 00 ++\n// ## []",
+  "ritual": "Double-click at dusk",
+  "sigil": "++ ## ++\n<> 00 []\n~~ {} //",
   "archivedAt": null,
-  "dateKey": "2026-10-09",
-  "publishedAt": "2026-10-09T15:18:11.249Z"
+  "dateKey": "2026-10-10",
+  "publishedAt": "2026-10-10T14:28:11.636Z"
 };
