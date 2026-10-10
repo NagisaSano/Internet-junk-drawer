@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Implementation evidence for the privileged Discord intents used by Solve applications.">
+  <title>Solve Discord Applications — Privileged Intent Evidence</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0d1017;
+      --panel: #171c27;
+      --panel-2: #111620;
+      --text: #f3f5fb;
+      --muted: #b7c0d5;
+      --line: #30394d;
+      --accent: #ff9e4a;
+      --accent-soft: #302318;
+      --ok: #7fe0aa;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top right, rgba(255, 158, 74, .16), transparent 34rem), var(--bg);
+      color: var(--text);
+      font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main { width: min(980px, calc(100% - 32px)); margin: 0 auto; padding: 64px 0 80px; }
+    h1, h2, h3 { line-height: 1.2; }
+    h1 { margin: 0 0 12px; font-size: clamp(2.1rem, 7vw, 4.2rem); }
+    h2 { margin-top: 48px; padding-top: 8px; border-top: 1px solid var(--line); }
+    h3 { margin-top: 28px; }
+    p, li { color: var(--muted); }
+    strong, a { color: var(--text); }
+    a:hover { color: var(--accent); }
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-weight: 750;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .meta, .notice, .flow, .scope-card {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(23, 28, 39, .9);
+      padding: 18px 20px;
+    }
+    .notice { margin: 28px 0; border-color: #684222; background: var(--accent-soft); }
+    .scope-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
+    .scope-card h3 { margin: 0 0 8px; }
+    .scope-card p { margin: 0; }
+    .approved { color: var(--ok); font-weight: 700; }
+    .not-requested { color: var(--muted); font-weight: 700; }
+    .flow { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 18px 0; }
+    .flow span { border: 1px solid var(--line); border-radius: 999px; padding: 6px 11px; background: var(--panel-2); }
+    .flow b { color: var(--accent); }
+    pre {
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #090c12;
+      padding: 18px;
+      color: #dce7ff;
+      font: 14px/1.55 ui-monospace, SFMono-Regular, Consolas, monospace;
+    }
+    code { color: var(--accent); }
+    pre code { color: inherit; }
+    table { width: 100%; border-collapse: collapse; margin: 18px 0; }
+    th, td { border: 1px solid var(--line); padding: 12px 14px; text-align: left; vertical-align: top; }
+    th { background: var(--panel); }
+    td { color: var(--muted); }
+    footer { margin-top: 64px; color: var(--muted); font-size: .92rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Solve Community · Discord applications</p>
+    <h1>Privileged Intent Evidence</h1>
+    <div class="meta">
+      <strong>Document type:</strong> implementation evidence pack<br>
+      <strong>Reviewed:</strong> October 10, 2026<br>
+      <strong>Operator:</strong> the Solve community application owner, Discord username
+      <code>nagisa_sano</code>
+    </div>
+
+    <div class="notice">
+      This page documents the exact production features that require privileged Discord Gateway
+      data. Excerpts are deliberately limited to the relevant control flow and omit credentials,
+      internal configuration values, and unrelated source code.
+    </div>
+
+    <h2>1. Requested scope at a glance</h2>
+    <div class="scope-grid">
+      <article class="scope-card">
+        <h3>Solve・Rôleplay</h3>
+        <p>Application <code>1392136292107681792</code></p>
+        <p><span class="approved">Requested:</span> Guild Members</p>
+        <p><span class="not-requested">Not requested:</span> Presence, Message Content</p>
+      </article>
+      <article class="scope-card">
+        <h3>Solve・Douane</h3>
+        <p>Application <code>1373374958012465152</code></p>
+        <p><span class="approved">Requested:</span> Guild Members, Message Content</p>
+        <p><span class="not-requested">Not requested:</span> Presence</p>
+      </article>
+    </div>
+    <p>
+      Solve・Admin does not request any privileged intent. Solve・Naruto is covered by a separate,
+      already-reviewed request and is listed in the shared
+      <a href="./solve-discord-bots-privacy.html">privacy policy</a>.
+    </p>
+
+    <h2>2. Solve・Rôleplay — Guild Members</h2>
+    <p>
+      Solve・Rôleplay synchronizes a defined set of roleplay roles between two controlled Solve
+      guilds. When a member joins the second guild, the bot receives the member-join event, finds
+      the same Discord user in the first guild, reads only the configured source roles, and applies
+      their configured equivalents. Authorized administrators can also run a complete reconciliation
+      over existing members after configuration changes or downtime.
+    </p>
+    <div class="flow" aria-label="Rôleplay member synchronization workflow">
+      <span>Member joins RP #2</span><b>→</b><span>Match same user in RP #1</span><b>→</b>
+      <span>Read mapped roles</span><b>→</b><span>Apply equivalents in RP #2</span>
+    </div>
+    <h3>Relevant implementation excerpt</h3>
+    <pre><code>@commands.Cog.listener()
+async def on_member_join(self, member: disnake.Member):
+    if member.guild.id != RP2_GUILD_ID:
+        return
+    await self.sync_member_roles(member)
+
+# Administrator-only full reconciliation
+members_to_sync = [member for member in rp2_guild.members if not member.bot]
+for member in members_to_sync:
+    await self.sync_member_roles(member)</code></pre>
+    <p>
+      The event-driven join flow requires <code>GUILD_MEMBER_ADD</code>. The reconciliation flow
+      requires a complete, current guild member list. Interaction payloads and one-off REST lookups
+      do not provide equivalent event coverage or a complete reconciliation source.
+    </p>
+
+    <h2>3. Solve・Douane — Guild Members</h2>
+    <p>
+      Solve・Douane operates the whitelist and staff workflows shared by the controlled Solve Naruto
+      and Douane guilds. It reacts to member joins and role changes, reconciles whitelist/blacklist
+      and staff roles, and computes the current staff or voice-queue membership used by operational
+      tools. These features use Discord user IDs and role membership; they do not use presence data.
+    </p>
+    <div class="flow" aria-label="Douane member workflow">
+      <span>Member joins or roles change</span><b>→</b><span>Validate configured state</span><b>→</b>
+      <span>Synchronize or protect roles</span><b>→</b><span>Write restricted audit log</span>
+    </div>
+    <h3>Relevant implementation excerpts</h3>
+    <pre><code>@commands.Cog.listener()
+async def on_member_update(self, before: disnake.Member, after: disnake.Member):
+    if after.guild.id != GUILD_NARUTO_ID:
+        return
+    # Verify and, where necessary, correct a protected whitelist-role change.
+
+# Staff-role reconciliation between the two controlled guilds
+authorized_member_ids = {member.id for member in source_role.members}
+await self._sync_douane_role(target_guild, authorized_member_ids, target_role, ...)
+
+# Voice-queue cleanup needs the current guild membership
+for member in guild.members:
+    await reconcile_queue_nickname(member)</code></pre>
+    <p>
+      The join/update listeners require member Gateway events. Staff-role and administrative
+      reconciliation require complete role-member and guild-member collections. Access is scoped to
+      the two configured Solve guilds and is used only for those operational workflows.
+    </p>
+
+    <h2>4. Solve・Douane — Message Content</h2>
+    <p>
+      Message content is processed only in explicitly configured operational channels and for four
+      deterministic features. It is not used for advertising, profiling, general analytics, or
+      training machine-learning or artificial-intelligence models.
+    </p>
+    <table>
+      <thead>
+        <tr><th>Feature</th><th>Why ordinary message content is necessary</th><th>Scope</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Absence forwarding</td>
+          <td>Copies a staff member’s absence notice between the configured Naruto and Douane absence channels.</td>
+          <td>Two fixed operational channels; messages from bots are ignored.</td>
+        </tr>
+        <tr>
+          <td>Staff mention routing</td>
+          <td>Detects one configured staff-role mention and forwards the accompanying context to the restricted staff destination.</td>
+          <td>Configured guild/channel/role only.</td>
+        </tr>
+        <tr>
+          <td>Douane guidance</td>
+          <td>Applies deterministic keyword and mention rules to route questions and respond to unauthorized staff pings.</td>
+          <td>No AI or semantic profiling; fixed rules only.</td>
+        </tr>
+        <tr>
+          <td>Ticket transcripts</td>
+          <td>Creates the staff audit transcript when an authorized user closes a Douane ticket.</td>
+          <td>Ticket channels only; restricted log destination.</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>Relevant implementation excerpts</h3>
+    <pre><code>@commands.Cog.listener()
+async def on_message(self, message: disnake.Message):
+    if message.author.bot:
+        return
+    if message.guild.id == DOUANE_GUILD_ID and message.channel.id == ABSENCE_CHANNEL_DOUANE:
+        forwarded_text = f"**Absence de :** &lt;@{message.author.id}&gt;\n{message.content}"
+        await configured_naruto_absence_channel.send(forwarded_text)
+
+# On authorized ticket closure
+with temporary_transcript.open("w", encoding="utf-8") as transcript:
+    async for message in ticket_channel.history(limit=None, oldest_first=True):
+        transcript.write(format_ticket_line(message))
+await restricted_log_channel.send(file=disnake.File(temporary_transcript))
+temporary_transcript.unlink(missing_ok=True)</code></pre>
+    <p>
+      Slash commands cannot replace these passive workflows because the triggering objects are
+      ordinary staff notices, role mentions, questions, and ticket messages. The bot first checks the
+      configured guild, channel, role, author, or ticket context before using content.
+    </p>
+
+    <h2>5. Data handling and user controls</h2>
+    <ul>
+      <li>Access is restricted to the application operator and authorized Solve staff.</li>
+      <li>Persistent workflow records use access-controlled hosting and database services.</li>
+      <li>
+        A ticket transcript is written to a temporary local file only during closure, transferred to
+        a restricted Discord log channel, and deleted from local storage immediately afterward.
+      </li>
+      <li>Message content is not sold, used for advertising, or used for AI/ML training.</li>
+      <li>
+        Data access or deletion requests can be sent to <code>nagisa_sano</code> on Discord or through
+        an official Solve support ticket, as described in the privacy policy.
+      </li>
+    </ul>
+
+    <h2>6. Contact and policy</h2>
+    <p>
+      Questions about this implementation may be sent to Discord username <code>nagisa_sano</code>.
+      The complete retention, security, recipient, and deletion disclosures are available in the
+      <a href="./solve-discord-bots-privacy.html">Solve Discord Applications Privacy Policy</a>.
+    </p>
+
+    <footer>
+      <a href="./">Main site</a> ·
+      <a href="./solve-discord-bots-privacy.html">Privacy policy</a> ·
+      Evidence pack for Discord Developer Compliance
+    </footer>
+  </main>
+</body>
+</html>
