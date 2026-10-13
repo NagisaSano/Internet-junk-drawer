@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-10-12",
-  "name": "Low-Budget Cursor Oracle",
+  "id": "daily-2026-10-13",
+  "name": "Ceremonial Notification Harp",
   "category": "Digital keepsake",
-  "vibe": "Low-stakes prophecy",
-  "description": "A low-stakes prophecy digital keepsake that adds ceremonial weight to tiny bad ideas until a stranger assumes there is a deeper system. It is usually found next to screenshots with no context.",
-  "threat": "Mildly destabilizing",
+  "vibe": "Administrative whimsy",
+  "description": "An administrative whimsy digital keepsake that adds ceremonial weight to tiny bad ideas until you accidentally start believing in its workflow. It is usually found between two unfinished side projects.",
+  "threat": "Harmless if respected",
   "usefulness": "Mostly ceremonial",
-  "habitat": "next to screenshots with no context",
-  "ritual": "Spin once before making plans",
-  "sigil": "<> () ()\n## 00 ::\n\\\\ \\\\ <>",
+  "habitat": "between two unfinished side projects",
+  "ritual": "Launch only after coffee",
+  "sigil": "## ++ ~~\n:: 00 <>\n~~ () ()",
   "archivedAt": null,
-  "dateKey": "2026-10-12",
-  "publishedAt": "2026-10-12T17:54:09.524Z"
+  "dateKey": "2026-10-13",
+  "publishedAt": "2026-10-13T15:58:40.605Z"
 };
