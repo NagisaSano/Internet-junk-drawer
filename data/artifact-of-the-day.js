@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-10-14",
-  "name": "Caffeinated Side Quest Engine",
-  "category": "Soft threat",
-  "vibe": "Glorified side quest",
-  "description": "A glorified side quest soft threat that adds ceremonial weight to tiny bad ideas until you accidentally start believing in its workflow. It is usually found between two unfinished side projects.",
-  "threat": "Decorative menace",
-  "usefulness": "Mostly ceremonial",
-  "habitat": "between two unfinished side projects",
-  "ritual": "Double-click at dusk",
-  "sigil": "++ () ::\n[] 00 \\\\\n// <> \\\\",
+  "id": "daily-2026-10-15",
+  "name": "Museum-Grade Desktop Weather System",
+  "category": "Domestic myth",
+  "vibe": "Gentle menace",
+  "description": "A gentle menace domestic myth that makes procrastination feel like archival practice until the repo gains one more unexplained feature. It is usually found inside shared folders nobody owns.",
+  "threat": "Mildly destabilizing",
+  "usefulness": "Useful under moonlight",
+  "habitat": "inside shared folders nobody owns",
+  "ritual": "Offer it one broken bookmark",
+  "sigil": "() [] //\n~~ 00 {}\n~~ :: []",
   "archivedAt": null,
-  "dateKey": "2026-10-14",
-  "publishedAt": "2026-10-14T13:43:22.604Z"
+  "dateKey": "2026-10-15",
+  "publishedAt": "2026-10-15T13:26:04.272Z"
 };
