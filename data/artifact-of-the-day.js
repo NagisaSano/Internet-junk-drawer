@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-10-15",
-  "name": "Museum-Grade Desktop Weather System",
-  "category": "Domestic myth",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace domestic myth that makes procrastination feel like archival practice until the repo gains one more unexplained feature. It is usually found inside shared folders nobody owns.",
+  "id": "daily-2026-10-16",
+  "name": "Invisible Browser Shrine",
+  "category": "Browser wildlife",
+  "vibe": "Glorified side quest",
+  "description": "A glorified side quest browser wildlife that makes the desktop feel 14% more haunted in a useful way until a stranger assumes there is a deeper system. It is usually found near forgotten tabs.",
   "threat": "Mildly destabilizing",
-  "usefulness": "Useful under moonlight",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Offer it one broken bookmark",
-  "sigil": "() [] //\n~~ 00 {}\n~~ :: []",
+  "usefulness": "Suspiciously efficient",
+  "habitat": "near forgotten tabs",
+  "ritual": "Double-click at dusk",
+  "sigil": "[] <> ##\n// 00 ~~\n// {} {}",
   "archivedAt": null,
-  "dateKey": "2026-10-15",
-  "publishedAt": "2026-10-15T13:26:04.272Z"
+  "dateKey": "2026-10-16",
+  "publishedAt": "2026-10-16T13:14:59.294Z"
 };
