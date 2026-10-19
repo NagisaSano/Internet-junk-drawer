@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-10-18",
-  "name": "Low-Budget Cursor Oracle",
-  "category": "Ceremonial clutter",
-  "vibe": "Glorified side quest",
-  "description": "A glorified side quest ceremonial clutter that makes the desktop feel 14% more haunted in a useful way until the room becomes emotionally better organized. It is usually found between two unfinished side projects.",
-  "threat": "Harmless if respected",
-  "usefulness": "Strangely practical",
-  "habitat": "between two unfinished side projects",
-  "ritual": "Double-click at dusk",
-  "sigil": ":: {} ::\n## 00 []\n[] :: \\\\",
+  "id": "daily-2026-10-19",
+  "name": "Biodegradable Side Quest Engine",
+  "category": "Digital keepsake",
+  "vibe": "Low-stakes prophecy",
+  "description": "A low-stakes prophecy digital keepsake that turns ordinary files into suspiciously meaningful relics until nobody can remember why it is charming, only that it is. It is usually found near forgotten tabs.",
+  "threat": "Questionably legal in spirit",
+  "usefulness": "Mostly ceremonial",
+  "habitat": "near forgotten tabs",
+  "ritual": "Spin once before making plans",
+  "sigil": "[] () ##\n<> 00 ++\n() ++ <>",
   "archivedAt": null,
-  "dateKey": "2026-10-18",
-  "publishedAt": "2026-10-18T12:36:33.141Z"
+  "dateKey": "2026-10-19",
+  "publishedAt": "2026-10-19T15:35:34.335Z"
 };
