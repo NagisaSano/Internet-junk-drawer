@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-10-21",
-  "name": "Museum-Grade Inbox Goblin",
-  "category": "Soft threat",
-  "vibe": "Warm absurdity",
-  "description": "A warm absurdity soft threat that relabels clutter as if it had a curator until nobody can remember why it is charming, only that it is. It is usually found behind a very confident desktop shortcut.",
-  "threat": "Questionably legal in spirit",
+  "id": "daily-2026-10-22",
+  "name": "Invisible Browser Shrine",
+  "category": "Digital keepsake",
+  "vibe": "Gentle menace",
+  "description": "A gentle menace digital keepsake that makes procrastination feel like archival practice until a stranger assumes there is a deeper system. It is usually found under the glow of a late-night monitor.",
+  "threat": "Mildly destabilizing",
   "usefulness": "Strangely practical",
-  "habitat": "behind a very confident desktop shortcut",
+  "habitat": "under the glow of a late-night monitor",
   "ritual": "Launch only after coffee",
-  "sigil": "## {} ()\n:: 00 ++\n<> :: {}",
+  "sigil": "() () ::\n// 00 []\n[] ## ()",
   "archivedAt": null,
-  "dateKey": "2026-10-21",
-  "publishedAt": "2026-10-21T13:48:11.838Z"
+  "dateKey": "2026-10-22",
+  "publishedAt": "2026-10-22T13:47:39.497Z"
 };
