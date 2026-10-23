@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-10-22",
-  "name": "Invisible Browser Shrine",
-  "category": "Digital keepsake",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace digital keepsake that makes procrastination feel like archival practice until a stranger assumes there is a deeper system. It is usually found under the glow of a late-night monitor.",
-  "threat": "Mildly destabilizing",
-  "usefulness": "Strangely practical",
-  "habitat": "under the glow of a late-night monitor",
-  "ritual": "Launch only after coffee",
-  "sigil": "() () ::\n// 00 []\n[] ## ()",
+  "id": "daily-2026-10-23",
+  "name": "Invisible Deadline Mirage",
+  "category": "Browser wildlife",
+  "vibe": "Glorified side quest",
+  "description": "A glorified side quest browser wildlife that relabels clutter as if it had a curator until the repo gains one more unexplained feature. It is usually found behind a very confident desktop shortcut.",
+  "threat": "Questionably legal in spirit",
+  "usefulness": "Mostly ceremonial",
+  "habitat": "behind a very confident desktop shortcut",
+  "ritual": "Double-click at dusk",
+  "sigil": "{} :: ~~\n## 00 \\\\\n{} ++ <>",
   "archivedAt": null,
-  "dateKey": "2026-10-22",
-  "publishedAt": "2026-10-22T13:47:39.497Z"
+  "dateKey": "2026-10-23",
+  "publishedAt": "2026-10-23T13:26:30.537Z"
 };
