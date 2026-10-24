@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-10-23",
-  "name": "Invisible Deadline Mirage",
-  "category": "Browser wildlife",
-  "vibe": "Glorified side quest",
-  "description": "A glorified side quest browser wildlife that relabels clutter as if it had a curator until the repo gains one more unexplained feature. It is usually found behind a very confident desktop shortcut.",
-  "threat": "Questionably legal in spirit",
+  "id": "daily-2026-10-24",
+  "name": "Caffeinated Desktop Weather System",
+  "category": "Office folklore",
+  "vibe": "Administrative whimsy",
+  "description": "An administrative whimsy office folklore that turns ordinary files into suspiciously meaningful relics until a stranger assumes there is a deeper system. It is usually found inside shared folders nobody owns.",
+  "threat": "Mildly destabilizing",
   "usefulness": "Mostly ceremonial",
-  "habitat": "behind a very confident desktop shortcut",
-  "ritual": "Double-click at dusk",
-  "sigil": "{} :: ~~\n## 00 \\\\\n{} ++ <>",
+  "habitat": "inside shared folders nobody owns",
+  "ritual": "Whisper a filename and refresh",
+  "sigil": "~~ :: ##\n[] 00 ##\n## () ()",
   "archivedAt": null,
-  "dateKey": "2026-10-23",
-  "publishedAt": "2026-10-23T13:26:30.537Z"
+  "dateKey": "2026-10-24",
+  "publishedAt": "2026-10-24T12:40:10.930Z"
 };
