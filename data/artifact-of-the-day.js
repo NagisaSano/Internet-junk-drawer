@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-10-24",
-  "name": "Caffeinated Desktop Weather System",
-  "category": "Office folklore",
+  "id": "daily-2026-10-25",
+  "name": "Invisible Wi-Fi Totem",
+  "category": "Domestic myth",
   "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy office folklore that turns ordinary files into suspiciously meaningful relics until a stranger assumes there is a deeper system. It is usually found inside shared folders nobody owns.",
-  "threat": "Mildly destabilizing",
-  "usefulness": "Mostly ceremonial",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Whisper a filename and refresh",
-  "sigil": "~~ :: ##\n[] 00 ##\n## () ()",
+  "description": "An administrative whimsy domestic myth that converts unread pings into decorative confidence until the repo gains one more unexplained feature. It is usually found behind a very confident desktop shortcut.",
+  "threat": "Questionably legal in spirit",
+  "usefulness": "Suspiciously efficient",
+  "habitat": "behind a very confident desktop shortcut",
+  "ritual": "Launch only after coffee",
+  "sigil": "// ## []\n\\\\ 00 //\n:: () ~~",
   "archivedAt": null,
-  "dateKey": "2026-10-24",
-  "publishedAt": "2026-10-24T12:40:10.930Z"
+  "dateKey": "2026-10-25",
+  "publishedAt": "2026-10-25T13:10:55.529Z"
 };
