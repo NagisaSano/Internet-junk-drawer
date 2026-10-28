@@ -252,7 +252,7 @@ temporary_transcript.unlink(missing_ok=True)</code></pre>
 // If Message Content is unavailable, preserve the ticket channel.
 const fetched = await channel.messages.fetch({ limit: 100, before: lastId });
 // Repeat pagination to collect the complete history.
-fs.writeFileSync(filePath, embedText + messageLines.join("\\n"), "utf8");
+fs.writeFileSync(filePath, embedText + messageLines.join("\n"), "utf8");
 await logCh.send({ embeds: [logEmbed], files: [new AttachmentBuilder(filePath)] });
 // Delete the ticket channel only after the complete archive is confirmed.
 // There is no routine local archive-file deletion after upload.</code></pre>
