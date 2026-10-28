@@ -79,14 +79,15 @@
     <h1>Privileged Intent Evidence</h1>
     <div class="meta">
       <strong>Document type:</strong> implementation evidence pack<br>
-      <strong>Reviewed:</strong> October 10, 2026<br>
+      <strong>Reviewed:</strong> October 28, 2026<br>
       <strong>Operator:</strong> the Solve community application owner, Discord username
       <code>nagisa_sano</code>
     </div>
 
     <div class="notice">
-      This page documents the exact production features that require privileged Discord Gateway
-      data. Excerpts are deliberately limited to the relevant control flow and omit credentials,
+      This page documents implementation evidence for features that require privileged Discord Gateway
+      data. The Admin section describes the reviewed repository implementation and requested use;
+      it does not establish the deployed version or Discord approval. Excerpts are deliberately limited to the relevant control flow and omit credentials,
       internal configuration values, and unrelated source code.
     </div>
 
@@ -106,7 +107,9 @@
       </article>
     </div>
     <p>
-      Solve・Admin does not request any privileged intent. Solve・Naruto is covered by a separate,
+      Solve・Admin requests only Message Content for ticket archives; Guild Members and Presence
+      are not requested. This is a description of the proposed request, not confirmation of Discord
+      approval or activation. Solve・Naruto is covered by a separate,
       already-reviewed request and is listed in the shared
       <a href="./solve-discord-bots-privacy.html">privacy policy</a>.
     </p>
@@ -225,13 +228,52 @@ temporary_transcript.unlink(missing_ok=True)</code></pre>
       configured guild, channel, role, author, or ticket context before using content.
     </p>
 
+    <h2>Solve・Admin — Message Content for ticket archives</h2>
+    <p>
+      Application <code>1378096450613018716</code> operates support and roleplay tickets.
+      The reviewed implementation restricts <code>/close</code> to authorized staff roles and
+      configured ticket categories, and requires an explicit closure confirmation.
+      It then reads the ticket channel's history, writes an archive containing message text,
+      timestamps, author tags and opening-ticket embed content, and sends the archive to the
+      configured Discord log channel. The ticket channel is deleted only after history retrieval,
+      local file creation and archive delivery succeed. Otherwise the channel is retained.
+    </p>
+    <p>
+      Message Content is requested for ordinary messages in those ticket channels, including
+      staff messages. A slash command can initiate closure but does not supply the text of
+      pre-existing ordinary messages needed for the complete transcript. Direct messages addressed
+      to the bot and modal-based replies do not themselves require this intent. The reviewed code
+      keeps closure suspended when Message Content is unavailable. It does not require Guild Members
+      or Presence for this workflow.
+    </p>
+    <h3>Relevant implementation flow</h3>
+    <pre><code>// Simplified from the reviewed Admin closure implementation:
+// Check authorized staff role and allowed ticket category; request confirmation.
+// If Message Content is unavailable, preserve the ticket channel.
+const fetched = await channel.messages.fetch({ limit: 100, before: lastId });
+// Repeat pagination to collect the complete history.
+fs.writeFileSync(filePath, embedText + messageLines.join("\\n"), "utf8");
+await logCh.send({ embeds: [logEmbed], files: [new AttachmentBuilder(filePath)] });
+// Delete the ticket channel only after the complete archive is confirmed.
+// There is no routine local archive-file deletion after upload.</code></pre>
+    <p>
+      <strong>Admin retention:</strong> the operator confirmed that local .log archives and their
+      Discord log-channel copies are retained indefinitely, with no planned routine or scheduled
+      deletion. The temporary-file deletion behavior documented for Douane does not apply to Admin.
+      Access, correction and deletion requests remain available through the privacy-policy contact.
+      These statements describe repository evidence and the operator's retention practice;
+      the currently deployed revision has not been independently verified.
+    </p>
+
     <h2>5. Data handling and user controls</h2>
     <ul>
       <li>Access is restricted to the application operator and authorized Solve staff.</li>
       <li>Persistent workflow records use access-controlled hosting and database services.</li>
       <li>
-        A ticket transcript is written to a temporary local file only during closure, transferred to
-        a restricted Discord log channel, and deleted from local storage immediately afterward.
+        For Solve・Douane, a ticket transcript is written to a temporary local file only during closure,
+        transferred to a restricted Discord log channel, and deleted from local storage immediately
+        afterward. Solve・Admin archives instead remain locally and in the configured Discord log
+        channel indefinitely, without planned routine deletion.
       </li>
       <li>Message content is not sold, used for advertising, or used for AI/ML training.</li>
       <li>
