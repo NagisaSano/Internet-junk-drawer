@@ -70,7 +70,7 @@
     <p class="eyebrow">Solve Community · Discord applications</p>
     <h1>Privacy Policy</h1>
     <div class="meta">
-      <strong>Effective and last updated:</strong> October 10, 2026<br>
+      <strong>Effective and last updated:</strong> October 28, 2026<br>
       <strong>Operator:</strong> the Solve community application owner, Discord username
       <code>nagisa_sano</code>
     </div>
@@ -101,6 +101,7 @@
         <li>guild membership and role information required for access control and role synchronization;</li>
         <li>ticket, whitelist, interview, staff, blacklist, XP, and roleplay workflow records;</li>
         <li>messages and attachments that a user voluntarily sends directly to Solve・Admin;</li>
+        <li>for Solve・Admin ticket archives, ordinary messages in authorized ticket channels, including staff messages, message timestamps, author tags, and opening-ticket embed content;</li>
         <li>
           message content in specifically configured operational channels used by Solve・Douane
           for absence forwarding, staff alerts, ticket transcripts, and deterministic moderation;
@@ -134,9 +135,12 @@
           synchronization are necessary. Solve・Admin does not request this privileged intent.
         </li>
         <li>
-          <strong>Message Content:</strong> used only by Solve・Douane in configured operational
-          channels. Solve・Admin receives content from direct messages sent to the application,
-          which Discord makes available without the privileged Message Content intent.
+          <strong>Message Content:</strong> used by Solve・Douane in configured operational
+          channels. Solve・Admin's requested use is to read ordinary messages in authorized ticket
+          channels when authorized staff confirm ticket closure, so a complete ticket archive can
+          be created before the channel is deleted. Direct messages sent to Solve・Admin remain
+          available without this privileged intent. This description of requested access does not
+          mean Discord has approved or enabled it.
         </li>
         <li>
           <strong>Presence:</strong> used only by Solve・Naruto for configured live-stream activity
@@ -160,7 +164,21 @@
         after their transfer to the restricted Discord log channel.
       </p>
 
+      <p>
+        Solve・Admin ticket archives are written as local .log files on the bot host and uploaded
+        to the configured Discord log channel. They contain the ticket message text, timestamps,
+        author tags and opening-ticket embed content. Unlike the Douane temporary-file workflow,
+        Admin archive files are not routinely deleted after upload.
+      </p>
+
       <h2>6. Retention</h2>
+      <p>
+        <strong>Solve・Admin ticket archives:</strong> local .log files and their Discord log-channel
+        copies are retained indefinitely, with no scheduled or routine deletion currently planned.
+        This is a specific exception to the general operational-retention description below.
+        The access, correction and deletion-request contact in section 7 remains available;
+        there is no automatic expiry or purge of these archives.
+      </p>
       <p>
         Operational identifiers and workflow records are retained only while they are needed to
         provide the configured feature, preserve ticket or moderation integrity, resolve disputes,
@@ -212,6 +230,14 @@
         vendues, ni utilisées à des fins publicitaires, ni utilisées pour entraîner des modèles d’IA.
       </p>
 
+      <p>
+        Pour archiver les tickets avant leur fermeture, l’usage demandé de Message Content par
+        Solve・Admin permet de lire les messages ordinaires des salons de tickets autorisés,
+        notamment ceux du staff. L’archive comprend le texte, les horodatages, les noms Discord
+        des auteurs et le contenu de l’embed d’ouverture. Les MP adressés au bot restent accessibles
+        sans cet intent. Cet usage demandé ne signifie pas que Discord l’a approuvé ou activé.
+      </p>
+
       <h2>3. Stockage, accès et sécurité</h2>
       <p>
         Les données peuvent être conservées dans des salons Discord à accès restreint, des fichiers
@@ -224,7 +250,20 @@
         Discord de logs restreint.
       </p>
 
+      <p>
+        Les archives de tickets Solve・Admin sont écrites dans des fichiers .log sur l’hébergement
+        du bot puis envoyées dans le salon Discord de logs configuré. Contrairement aux fichiers
+        temporaires de Douane, ces fichiers Admin ne sont pas supprimés systématiquement après envoi.
+      </p>
+
       <h2>4. Conservation et droits</h2>
+      <p>
+        <strong>Exception pour les archives de tickets Solve・Admin :</strong> les fichiers .log
+        locaux et leurs copies dans le salon Discord sont conservés sans limite de durée prévue.
+        Aucune suppression planifiée ou systématique n’est actuellement prévue. Les demandes
+        d’accès, de rectification et de suppression restent possibles via le contact ci-dessous ;
+        il n’existe pas de purge automatique de ces archives.
+      </p>
       <p>
         Les identifiants et données opérationnelles ne sont conservés que pendant la durée nécessaire
         au fonctionnement, à l’intégrité des tickets et de la modération, à la sécurité ou aux
