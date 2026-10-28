@@ -230,9 +230,11 @@ temporary_transcript.unlink(missing_ok=True)</code></pre>
 
     <h2>Solve・Rôleplay — Message Content for ticket transcripts</h2>
     <p>
-      Application <code>1392136292107681792</code> operates roleplay tickets (XP rewards, character
-      validations, sanctions). A ticket is closed by its owner or a game master (close button or
-      slash command), or automatically after 72 hours of player inactivity. On closure the bot reads
+      Application <code>1392136292107681792</code> operates roleplay tickets (character creation,
+      in-game technique training follow-ups, Bingo Book entries, and the XP they award). A ticket is
+      closed by its owner, a game master or an administrator (close button or slash command), or
+      automatically after at least 72 hours of player inactivity: a final reminder is sent, then the
+      ticket closes at 23:00 that day if the player still has not answered. On closure the bot reads
       the ticket channel's history, builds a plain-text transcript in memory (timestamp, author
       display name, message text, attachment filenames) and posts it with a closure embed in the
       restricted staff log channel of the same guild. The ticket channel is deleted only after the
