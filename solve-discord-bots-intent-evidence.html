@@ -96,8 +96,8 @@
       <article class="scope-card">
         <h3>Solve・Rôleplay</h3>
         <p>Application <code>1392136292107681792</code></p>
-        <p><span class="approved">Requested:</span> Guild Members</p>
-        <p><span class="not-requested">Not requested:</span> Presence, Message Content</p>
+        <p><span class="approved">Requested:</span> Guild Members, Message Content</p>
+        <p><span class="not-requested">Not requested:</span> Presence</p>
       </article>
       <article class="scope-card">
         <h3>Solve・Douane</h3>
@@ -228,6 +228,39 @@ temporary_transcript.unlink(missing_ok=True)</code></pre>
       configured guild, channel, role, author, or ticket context before using content.
     </p>
 
+    <h2>Solve・Rôleplay — Message Content for ticket transcripts</h2>
+    <p>
+      Application <code>1392136292107681792</code> operates roleplay tickets (XP rewards, character
+      validations, sanctions). A ticket is closed by its owner or a game master (close button or
+      slash command), or automatically after 72 hours of player inactivity. On closure the bot reads
+      the ticket channel's history, builds a plain-text transcript in memory (timestamp, author
+      display name, message text, attachment filenames) and posts it with a closure embed in the
+      restricted staff log channel of the same guild. The ticket channel is deleted only after the
+      transcript has been delivered; otherwise the channel is retained.
+    </p>
+    <p>
+      Message Content is requested for ordinary messages in those ticket channels, including staff
+      messages. A slash command can trigger closure but does not supply the text of earlier
+      free-form messages. Without Message Content the bot keeps closure suspended (button, command
+      and inactivity auto-close) so no ticket history is lost. It reads message content nowhere else
+      and its SQLite ticket database stores no message content.
+    </p>
+    <div class="flow" aria-label="Rôleplay ticket transcript workflow">
+      <span>Ticket closed</span><b>→</b><span>Read ticket history</span><b>→</b>
+      <span>Post transcript to staff log</span><b>→</b><span>Delete ticket channel</span>
+    </div>
+    <h3>Relevant implementation excerpt</h3>
+    <pre><code># Simplified from the Rôleplay ticket closure implementation
+if not bot.intents.message_content:
+    return await inter.response.send_message(CLOSE_SUSPENDED_MESSAGE, ephemeral=True)
+
+lines = []
+async for msg in ticket_channel.history(limit=None, oldest_first=True):
+    lines.append(f"[{timestamp}] {msg.author.display_name}: {msg.content}")
+transcript = disnake.File(io.StringIO("\n".join(lines)), filename=f"transcript_{ticket_id}.txt")
+await restricted_log_channel.send(embed=close_embed, file=transcript)
+await ticket_channel.delete()  # only after the transcript was delivered</code></pre>
+
     <h2>Solve・Admin — Message Content for ticket archives</h2>
     <p>
       Application <code>1378096450613018716</code> operates support and roleplay tickets.
@@ -273,7 +306,8 @@ await logCh.send({ embeds: [logEmbed], files: [new AttachmentBuilder(filePath)] 
         For Solve・Douane, a ticket transcript is written to a temporary local file only during closure,
         transferred to a restricted Discord log channel, and deleted from local storage immediately
         afterward. Solve・Admin archives instead remain locally and in the configured Discord log
-        channel indefinitely, without planned routine deletion.
+        channel indefinitely, without planned routine deletion. Solve・Rôleplay transcripts are built
+        in memory and uploaded directly to its restricted Discord log channel; no local file is written.
       </li>
       <li>Message content is not sold, used for advertising, or used for AI/ML training.</li>
       <li>

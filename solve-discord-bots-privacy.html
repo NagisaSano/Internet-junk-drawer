@@ -102,6 +102,7 @@
         <li>ticket, whitelist, interview, staff, blacklist, XP, and roleplay workflow records;</li>
         <li>messages and attachments that a user voluntarily sends directly to Solve・Admin;</li>
         <li>for Solve・Admin ticket archives, ordinary messages in authorized ticket channels, including staff messages, message timestamps, author tags, and opening-ticket embed content;</li>
+        <li>for Solve・Rôleplay ticket transcripts, ordinary messages in its ticket channels (message text, timestamps, author display names, and attachment filenames), read only when a ticket is closed;</li>
         <li>
           message content in specifically configured operational channels used by Solve・Douane
           for absence forwarding, staff alerts, ticket transcripts, and deterministic moderation;
@@ -139,8 +140,11 @@
           channels. Solve・Admin's requested use is to read ordinary messages in authorized ticket
           channels when authorized staff confirm ticket closure, so a complete ticket archive can
           be created before the channel is deleted. Direct messages sent to Solve・Admin remain
-          available without this privileged intent. This description of requested access does not
-          mean Discord has approved or enabled it.
+          available without this privileged intent. Solve・Rôleplay's requested use is to read
+          ordinary messages in its ticket channels when a ticket is closed (by the ticket owner or a
+          game master, or automatically after 72 hours of player inactivity), so a transcript can be
+          posted in a restricted staff log channel before the channel is deleted. This description
+          of requested access does not mean Discord has approved or enabled it.
         </li>
         <li>
           <strong>Presence:</strong> used only by Solve・Naruto for configured live-stream activity
@@ -171,6 +175,12 @@
         Admin archive files are not routinely deleted after upload.
       </p>
 
+      <p>
+        Solve・Rôleplay builds its ticket transcripts in memory and uploads them directly to the
+        restricted Discord log channel. No transcript file is written to the bot host, and its
+        SQLite ticket database stores no message content.
+      </p>
+
       <h2>6. Retention</h2>
       <p>
         <strong>Solve・Admin ticket archives:</strong> local .log files and their Discord log-channel
@@ -182,7 +192,7 @@
       <p>
         Operational identifiers and workflow records are retained only while they are needed to
         provide the configured feature, preserve ticket or moderation integrity, resolve disputes,
-        or meet security obligations. Message content processed by Solve・Douane is normally kept on
+        or meet security obligations. Message content processed by Solve・Douane or Solve・Rôleplay is normally kept on
         Discord in the relevant operational or staff-only channel; it is not used to build an
         off-platform message archive. Temporary off-platform transcript files are removed immediately
         after upload. Data is deleted or anonymized when it is no longer required, subject to
@@ -238,6 +248,15 @@
         sans cet intent. Cet usage demandé ne signifie pas que Discord l’a approuvé ou activé.
       </p>
 
+      <p>
+        Pour conserver l’historique des tickets RP, l’usage demandé de Message Content par
+        Solve・Rôleplay permet de lire les messages ordinaires de ses salons de tickets, uniquement à
+        la fermeture d’un ticket (par son auteur, un MJ, ou automatiquement après 72 h d’inactivité
+        du joueur). La transcription comprend le texte, les horodatages, les noms Discord des auteurs
+        et le nom des pièces jointes ; elle est postée dans un salon de logs réservé au staff avant la
+        suppression du salon. Cet usage demandé ne signifie pas que Discord l’a approuvé ou activé.
+      </p>
+
       <h2>3. Stockage, accès et sécurité</h2>
       <p>
         Les données peuvent être conservées dans des salons Discord à accès restreint, des fichiers
@@ -256,6 +275,12 @@
         temporaires de Douane, ces fichiers Admin ne sont pas supprimés systématiquement après envoi.
       </p>
 
+      <p>
+        Solve・Rôleplay construit ses transcriptions en mémoire et les envoie directement dans le salon
+        Discord de logs restreint : aucun fichier n’est écrit sur l’hébergement et sa base SQLite de
+        tickets ne contient aucun contenu de message.
+      </p>
+
       <h2>4. Conservation et droits</h2>
       <p>
         <strong>Exception pour les archives de tickets Solve・Admin :</strong> les fichiers .log
@@ -267,7 +292,7 @@
       <p>
         Les identifiants et données opérationnelles ne sont conservés que pendant la durée nécessaire
         au fonctionnement, à l’intégrité des tickets et de la modération, à la sécurité ou aux
-        obligations légales. Le contenu traité par Solve・Douane reste normalement dans les salons
+        obligations légales. Le contenu traité par Solve・Douane et Solve・Rôleplay reste normalement dans les salons
         Discord concernés et ne constitue pas une archive externe des messages.
       </p>
       <p>
