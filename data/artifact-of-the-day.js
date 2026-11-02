@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-11-01",
-  "name": "Invisible Portable Ritual",
-  "category": "Office folklore",
-  "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy office folklore that turns ordinary files into suspiciously meaningful relics until the room becomes emotionally better organized. It is usually found inside shared folders nobody owns.",
-  "threat": "Questionably legal in spirit",
-  "usefulness": "Mostly ceremonial",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Whisper a filename and refresh",
-  "sigil": "## ++ //\n~~ 00 ~~\n:: ~~ <>",
+  "id": "daily-2026-11-02",
+  "name": "Emergency Desktop Weather System",
+  "category": "Tiny machine",
+  "vibe": "Curated nonsense",
+  "description": "A curated nonsense tiny machine that relabels clutter as if it had a curator until a stranger assumes there is a deeper system. It is usually found under the glow of a late-night monitor.",
+  "threat": "Mildly destabilizing",
+  "usefulness": "Excellent for morale",
+  "habitat": "under the glow of a late-night monitor",
+  "ritual": "Launch only after coffee",
+  "sigil": "[] \\\\ \\\\\n:: 00 []\n++ ## {}",
   "archivedAt": null,
-  "dateKey": "2026-11-01",
-  "publishedAt": "2026-11-01T15:08:28.108Z"
+  "dateKey": "2026-11-02",
+  "publishedAt": "2026-11-02T18:21:26.759Z"
 };
