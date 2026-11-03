@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-11-02",
-  "name": "Emergency Desktop Weather System",
-  "category": "Tiny machine",
-  "vibe": "Curated nonsense",
-  "description": "A curated nonsense tiny machine that relabels clutter as if it had a curator until a stranger assumes there is a deeper system. It is usually found under the glow of a late-night monitor.",
-  "threat": "Mildly destabilizing",
-  "usefulness": "Excellent for morale",
-  "habitat": "under the glow of a late-night monitor",
-  "ritual": "Launch only after coffee",
-  "sigil": "[] \\\\ \\\\\n:: 00 []\n++ ## {}",
+  "id": "daily-2026-11-03",
+  "name": "Unauthorized Browser Shrine",
+  "category": "Soft threat",
+  "vibe": "Administrative whimsy",
+  "description": "An administrative whimsy soft threat that relabels clutter as if it had a curator until a stranger assumes there is a deeper system. It is usually found between two unfinished side projects.",
+  "threat": "Safe for office folklore",
+  "usefulness": "Strangely practical",
+  "habitat": "between two unfinished side projects",
+  "ritual": "Double-click at dusk",
+  "sigil": "<> {} ()\n~~ 00 //\n++ \\\\ <>",
   "archivedAt": null,
-  "dateKey": "2026-11-02",
-  "publishedAt": "2026-11-02T18:21:26.759Z"
+  "dateKey": "2026-11-03",
+  "publishedAt": "2026-11-03T16:14:12.518Z"
 };
