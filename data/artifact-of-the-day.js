@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-11-03",
-  "name": "Unauthorized Browser Shrine",
-  "category": "Soft threat",
+  "id": "daily-2026-11-04",
+  "name": "Emergency Deadline Mirage",
+  "category": "Digital keepsake",
   "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy soft threat that relabels clutter as if it had a curator until a stranger assumes there is a deeper system. It is usually found between two unfinished side projects.",
+  "description": "An administrative whimsy digital keepsake that adds ceremonial weight to tiny bad ideas until a stranger assumes there is a deeper system. It is usually found next to screenshots with no context.",
   "threat": "Safe for office folklore",
-  "usefulness": "Strangely practical",
-  "habitat": "between two unfinished side projects",
-  "ritual": "Double-click at dusk",
-  "sigil": "<> {} ()\n~~ 00 //\n++ \\\\ <>",
+  "usefulness": "Useful under moonlight",
+  "habitat": "next to screenshots with no context",
+  "ritual": "Spin once before making plans",
+  "sigil": "// <> \\\\\n() 00 ~~\n{} ~~ \\\\",
   "archivedAt": null,
-  "dateKey": "2026-11-03",
-  "publishedAt": "2026-11-03T16:14:12.518Z"
+  "dateKey": "2026-11-04",
+  "publishedAt": "2026-11-04T16:18:20.913Z"
 };
