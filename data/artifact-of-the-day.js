@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-11-06",
-  "name": "Overengineered Desktop Weather System",
-  "category": "Ceremonial clutter",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace ceremonial clutter that relabels clutter as if it had a curator until the room becomes emotionally better organized. It is usually found behind a very confident desktop shortcut.",
+  "id": "daily-2026-11-07",
+  "name": "Emergency JPEG Museum",
+  "category": "Tiny machine",
+  "vibe": "Administrative whimsy",
+  "description": "An administrative whimsy tiny machine that relabels clutter as if it had a curator until you accidentally start believing in its workflow. It is usually found inside shared folders nobody owns.",
   "threat": "Mildly destabilizing",
-  "usefulness": "Strangely practical",
-  "habitat": "behind a very confident desktop shortcut",
-  "ritual": "Double-click at dusk",
-  "sigil": ":: [] {}\n:: 00 ++\n{} :: <>",
+  "usefulness": "Mostly ceremonial",
+  "habitat": "inside shared folders nobody owns",
+  "ritual": "Offer it one broken bookmark",
+  "sigil": "~~ [] ::\n// 00 {}\n{} <> ::",
   "archivedAt": null,
-  "dateKey": "2026-11-06",
-  "publishedAt": "2026-11-06T15:55:15.934Z"
+  "dateKey": "2026-11-07",
+  "publishedAt": "2026-11-07T14:53:47.841Z"
 };
