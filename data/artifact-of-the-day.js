@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-11-09",
-  "name": "Emergency Desktop Weather System",
-  "category": "Office folklore",
-  "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy office folklore that relabels clutter as if it had a curator until you accidentally start believing in its workflow. It is usually found inside shared folders nobody owns.",
+  "id": "daily-2026-11-10",
+  "name": "Biodegradable Tab Fossil",
+  "category": "Digital keepsake",
+  "vibe": "Gentle menace",
+  "description": "A gentle menace digital keepsake that relabels clutter as if it had a curator until someone mistakes it for a serious tool. It is usually found between two unfinished side projects.",
   "threat": "Safe for office folklore",
-  "usefulness": "Mostly ceremonial",
-  "habitat": "inside shared folders nobody owns",
-  "ritual": "Spin once before making plans",
-  "sigil": ":: {} //\n() 00 ##\n:: ## ~~",
+  "usefulness": "Excellent for morale",
+  "habitat": "between two unfinished side projects",
+  "ritual": "Launch only after coffee",
+  "sigil": ":: {} ()\n{} 00 <>\n<> ## ++",
   "archivedAt": null,
-  "dateKey": "2026-11-09",
-  "publishedAt": "2026-11-09T18:48:14.791Z"
+  "dateKey": "2026-11-10",
+  "publishedAt": "2026-11-10T16:24:47.629Z"
 };
