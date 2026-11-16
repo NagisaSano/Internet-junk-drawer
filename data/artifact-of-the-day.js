@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-11-15",
-  "name": "Emergency Deadline Mirage",
-  "category": "Domestic myth",
-  "vibe": "Curated nonsense",
-  "description": "A curated nonsense domestic myth that relabels clutter as if it had a curator until a stranger assumes there is a deeper system. It is usually found near forgotten tabs.",
+  "id": "daily-2026-11-16",
+  "name": "Portable Wi-Fi Totem",
+  "category": "Browser wildlife",
+  "vibe": "Administrative whimsy",
+  "description": "An administrative whimsy browser wildlife that converts unread pings into decorative confidence until you accidentally start believing in its workflow. It is usually found under the glow of a late-night monitor.",
   "threat": "Harmless if respected",
-  "usefulness": "Excellent for morale",
-  "habitat": "near forgotten tabs",
-  "ritual": "Whisper a filename and refresh",
-  "sigil": "[] ~~ ##\n:: 00 //\n<> ## {}",
+  "usefulness": "Mostly ceremonial",
+  "habitat": "under the glow of a late-night monitor",
+  "ritual": "Double-click at dusk",
+  "sigil": "~~ ++ ~~\n++ 00 ~~\n{} <> ()",
   "archivedAt": null,
-  "dateKey": "2026-11-15",
-  "publishedAt": "2026-11-15T15:39:29.850Z"
+  "dateKey": "2026-11-16",
+  "publishedAt": "2026-11-16T18:32:12.338Z"
 };
