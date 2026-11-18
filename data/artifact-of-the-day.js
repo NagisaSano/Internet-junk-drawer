@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-11-17",
-  "name": "Suburban Tab Fossil",
-  "category": "Domestic myth",
-  "vibe": "Gentle menace",
-  "description": "A gentle menace domestic myth that relabels clutter as if it had a curator until you accidentally start believing in its workflow. It is usually found near forgotten tabs.",
-  "threat": "Questionably legal in spirit",
-  "usefulness": "Useful under moonlight",
-  "habitat": "near forgotten tabs",
-  "ritual": "Offer it one broken bookmark",
-  "sigil": "## \\\\ ()\n() 00 []\n:: <> ~~",
+  "id": "daily-2026-11-18",
+  "name": "Low-Budget Side Quest Engine",
+  "category": "Browser wildlife",
+  "vibe": "Administrative whimsy",
+  "description": "An administrative whimsy browser wildlife that converts unread pings into decorative confidence until the repo gains one more unexplained feature. It is usually found between two unfinished side projects.",
+  "threat": "Decorative menace",
+  "usefulness": "Excellent for morale",
+  "habitat": "between two unfinished side projects",
+  "ritual": "Ask nothing from it directly",
+  "sigil": "<> <> {}\n// 00 ~~\n[] :: ##",
   "archivedAt": null,
-  "dateKey": "2026-11-17",
-  "publishedAt": "2026-11-17T17:37:25.670Z"
+  "dateKey": "2026-11-18",
+  "publishedAt": "2026-11-18T17:15:15.782Z"
 };
