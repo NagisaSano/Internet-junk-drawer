@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-11-18",
-  "name": "Low-Budget Side Quest Engine",
-  "category": "Browser wildlife",
-  "vibe": "Administrative whimsy",
-  "description": "An administrative whimsy browser wildlife that converts unread pings into decorative confidence until the repo gains one more unexplained feature. It is usually found between two unfinished side projects.",
-  "threat": "Decorative menace",
-  "usefulness": "Excellent for morale",
-  "habitat": "between two unfinished side projects",
-  "ritual": "Ask nothing from it directly",
-  "sigil": "<> <> {}\n// 00 ~~\n[] :: ##",
+  "id": "daily-2026-11-19",
+  "name": "Polite Cursor Oracle",
+  "category": "Domestic myth",
+  "vibe": "Low-stakes prophecy",
+  "description": "A low-stakes prophecy domestic myth that makes the desktop feel 14% more haunted in a useful way until someone mistakes it for a serious tool. It is usually found inside shared folders nobody owns.",
+  "threat": "Harmless if respected",
+  "usefulness": "Strangely practical",
+  "habitat": "inside shared folders nobody owns",
+  "ritual": "Double-click at dusk",
+  "sigil": "++ <> {}\n++ 00 {}\n{} ~~ ++",
   "archivedAt": null,
-  "dateKey": "2026-11-18",
-  "publishedAt": "2026-11-18T17:15:15.782Z"
+  "dateKey": "2026-11-19",
+  "publishedAt": "2026-11-19T17:22:22.381Z"
 };
