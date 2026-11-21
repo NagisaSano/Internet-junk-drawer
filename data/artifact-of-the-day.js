@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-11-20",
-  "name": "Museum-Grade Side Quest Engine",
-  "category": "Ceremonial clutter",
-  "vibe": "Curated nonsense",
-  "description": "A curated nonsense ceremonial clutter that relabels clutter as if it had a curator until nobody can remember why it is charming, only that it is. It is usually found next to screenshots with no context.",
-  "threat": "Harmless if respected",
-  "usefulness": "Excellent for morale",
-  "habitat": "next to screenshots with no context",
-  "ritual": "Whisper a filename and refresh",
-  "sigil": "<> // <>\n[] 00 //\n~~ {} []",
+  "id": "daily-2026-11-21",
+  "name": "Polite Side Quest Engine",
+  "category": "Office folklore",
+  "vibe": "Glorified side quest",
+  "description": "A glorified side quest office folklore that makes procrastination feel like archival practice until a stranger assumes there is a deeper system. It is usually found under the glow of a late-night monitor.",
+  "threat": "Mildly destabilizing",
+  "usefulness": "Strangely practical",
+  "habitat": "under the glow of a late-night monitor",
+  "ritual": "Launch only after coffee",
+  "sigil": "{} ~~ {}\n++ 00 ::\n<> () \\\\",
   "archivedAt": null,
-  "dateKey": "2026-11-20",
-  "publishedAt": "2026-11-20T16:57:34.669Z"
+  "dateKey": "2026-11-21",
+  "publishedAt": "2026-11-21T16:08:37.376Z"
 };
