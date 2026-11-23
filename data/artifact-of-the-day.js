@@ -1,15 +1,15 @@
 window.INTERNET_JUNK_DRAWER_DAILY = {
-  "id": "daily-2026-11-22",
-  "name": "Unauthorized Notification Harp",
-  "category": "Digital keepsake",
-  "vibe": "Glorified side quest",
-  "description": "A glorified side quest digital keepsake that makes procrastination feel like archival practice until the room becomes emotionally better organized. It is usually found between two unfinished side projects.",
-  "threat": "Decorative menace",
+  "id": "daily-2026-11-23",
+  "name": "Low-Budget JPEG Museum",
+  "category": "Ceremonial clutter",
+  "vibe": "Curated nonsense",
+  "description": "A curated nonsense ceremonial clutter that makes procrastination feel like archival practice until a stranger assumes there is a deeper system. It is usually found near forgotten tabs.",
+  "threat": "Harmless if respected",
   "usefulness": "Mostly ceremonial",
-  "habitat": "between two unfinished side projects",
-  "ritual": "Double-click at dusk",
-  "sigil": "++ {} <>\n++ 00 {}\n~~ :: ()",
+  "habitat": "near forgotten tabs",
+  "ritual": "Whisper a filename and refresh",
+  "sigil": "// ~~ ~~\n## 00 ()\n\\\\ ## <>",
   "archivedAt": null,
-  "dateKey": "2026-11-22",
-  "publishedAt": "2026-11-22T16:16:10.066Z"
+  "dateKey": "2026-11-23",
+  "publishedAt": "2026-11-23T20:13:14.137Z"
 };
